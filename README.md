@@ -15,6 +15,15 @@ Features:
 - two main layouts: single page and lists
 - Automatic TOCs in separate sidebar from content
 - any depth tree supported
+- third-party apps
+  - Bootstrap 4
+  - Fontawesome 5
+
+### Adding content
+
+```
+$ hugo new 
+```
 
 ## Installation
 
@@ -23,7 +32,7 @@ Inside the folder of your Hugo site run:
     $ cd themes
     $ git clone https://github.com/marcanuy/simpleit-hugo-theme
 
-For more information read the official [setup guide](//gohugo.io/overview/installing/) of Hugo.
+For more information read the official [setup guide](//gohugo.io/getting-started/installing/) of Hugo.
 
 
 ### Run locally
