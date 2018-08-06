@@ -1,0 +1,12 @@
+{{ define "main" }}
+<div class="container">
+    <div id="search-page" role="main">
+	<h2>{{.Title}}</h2>
+	{{.Content}}
+	<div class="center-block">
+	    {{ partial "google_custom_search.html" . }}
+	</div>
+    </div>
+</div>
+{{- partial "footer.html" . -}}
+{{end}}

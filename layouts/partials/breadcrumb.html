@@ -1,0 +1,28 @@
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">
+      {{ template "breadcrumbnav" (dict "p1" . "p2" .) }}
+  </ol>
+</nav>
+
+<ol  class="nav navbar-nav">
+  
+</ol>
+{{ define "breadcrumbnav" }}
+{{ if .p1.Parent }}
+{{ template "breadcrumbnav" (dict "p1" .p1.Parent "p2" .p2 )  }}
+{{ else if not .p1.IsHome }}
+{{ template "breadcrumbnav" (dict "p1" .p1.Site.Home "p2" .p2 )  }}
+{{ end }}
+<li class="breadcrumb-item {{ if eq .p1 .p2 }} active{{ end }}"
+    {{ if eq .p1 .p2 }}aria-current="page"{{ end }}
+    itemprop="itemListElement" itemscope
+      itemtype="http://schema.org/ListItem">
+    <a href="{{ .p1.Permalink }}"
+       itemscope itemtype="http://schema.org/Thing"
+       itemprop="item" >
+	<span itemprop="name">{{ .p1.Title }}</span>
+    </a>
+    <!--><meta itemprop="position" content="" /><-->
+
+</li>
+{{ end }}

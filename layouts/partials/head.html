@@ -1,0 +1,48 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+{{ template "_internal/opengraph.html" . }}
+{{ template "_internal/twitter_cards.html" . }}
+
+{{- with .Site.Params.google_verify_meta -}}
+<meta name="google-site-verification" content="{{ . }}" />
+{{ end }}
+
+{{- with .Site.Params.bing_verify_meta -}}
+<meta name="msvalidate.01" content="{{ . }}" />
+{{ end }}
+
+{{- with .Site.Params.yandex_verify_meta -}}
+<meta name="yandex-verification" content="{{ . }}" />
+{{ end }}
+
+{{- if .Site.Params.google_adsense_id -}}
+{{ partial "adsense_page_level_ads.html" . }}
+{{ end }}
+
+{{- with .Description -}}
+<meta name="description" content="{{.}}">
+{{ end }}
+
+{{- with .Site.Params.author.name -}}
+<meta name="author" content="{{.}}">
+{{ end }}
+
+{{ partial "favicons.html" . }}
+
+<title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
+<link rel="canonical" href="{{ .Permalink }}">
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<!-- FontAwesome 5 -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+<!-- Custom styles for this template -->
+<link href="{{ .Site.BaseURL }}css/main.css" rel="stylesheet">
+
+{{ template "_internal/google_analytics_async.html" . }}
+
+{{ if .Site.Params.cookie_consent_info_url }}
+{{ partial "cookie-consent.html" . }}
+{{ end }}

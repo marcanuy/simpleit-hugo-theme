@@ -1,0 +1,17 @@
+<ul>
+    {{ range first 3 .Pages.ByDate.Reverse  }}
+    <li>
+    <article>
+      <!-- this <div> includes the title summary -->
+      <div>
+        <h4><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
+	{{if .Description }}
+	{{.Description}}
+	{{else}}
+        {{ .Summary }}
+	{{end}}
+      </div>
+    </article>
+</li>
+{{ end }}
+</ul>

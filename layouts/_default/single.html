@@ -1,0 +1,75 @@
+{{ define "main" }}
+
+<div class="container-fluid">
+    <div class="row">
+	<nav class="col-md-3 d-none d-md-block bg-light sidebar">
+            <div class="sidebar-sticky">
+		{{ .TableOfContents }}
+		
+		<h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+		    Helpful?
+		</h6>
+		<div class="d-flex align-items-center text-muted" >
+		    {{ partial "buymeacoffee.html" .}}
+		</div>
+		<div class="mt-3 pt-3">
+		    {{ partial "share_buttons.html" . }}
+		</div>
+            </div>
+        </nav>
+
+        <main role="main" class="col-md-9 ml-sm-auto col-lg-9 px-4">
+            <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+		<h1 class="h2">{{.Title}}</h1>
+
+
+
+            </div>
+
+	    {{ with .Page.Resources.GetMatch "header" }}
+	    <figure class="figure">
+		<img src="{{.RelPermalink}}" class="figure-img img-fluid rounded" alt="{{.Title}}">
+		<figcaption class="figure-caption text-center">{{.Title}} {{ with .Params.license }}<small>(License: {{.}})</small>{{end}}</figcaption>
+	    </figure>
+	    {{ end }}
+
+	    <div class="row">
+		<div class="col-8">
+		    {{ with .Params.Subtitle }}<p class="text-muted">{{.}}</p>{{ end }}
+		</div>
+		<div class="col-4">
+		    <div class="btn-toolbar mb-2 mb-md-0">
+			<ul class="mr-2 text-muted">
+			    <li><i class="fas fa-clock"></i> Published: {{ .PublishDate.Format "January 2, 2006" }}</li>
+			    {{ if ne .PublishDate .Lastmod }}
+			    <li>Last modified: {{ .Lastmod.Format "January 2, 2006" }}</li>
+			    {{ end }}
+			</ul>
+		    </div>
+		</div>
+	    </div>
+
+
+	    
+	    {{.Content}}
+	    {{ partial "author.html" . }}
+	    <div class="comments">
+		{{ template "_internal/disqus.html" . }}
+	    </div>
+	    {{ partial "breadcrumb.html" . }}
+
+	    <div class="mt-3">
+		{{- partial "footer.html" . -}}
+	    </div>
+	    
+        </main>
+    </div>
+</div>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.0.0-rc.8/mermaid.min.js"></script>
+
+{{ end }}
+
+

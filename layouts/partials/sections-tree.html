@@ -1,0 +1,31 @@
+<div class="">
+    <ul>
+	{{ if ne .IsHome true }}
+	<h4>Articles:</h4>
+	{{ template "current-section_pages" . }}
+	{{end}}
+	<hr>
+	{{ if gt (len .Sections) 0}}
+	<h4>Subcategories</h4>
+	{{ template "section-tree-nav" . }}
+	{{end}}
+    </ul>
+</div>
+
+{{ define "section-tree-nav" }}
+{{ range .Sections }}
+<li><h5><a href="{{.Permalink}}">{{ .LinkTitle }}</a></h5> </li>
+{{ template "current-section_pages" . }} 
+<ul>
+    {{ template "section-tree-nav" . }}
+</ul>
+{{ end }}
+{{ end }}
+
+{{ define "current-section_pages" }}
+<ul>
+    {{ range .Pages }}
+    <li><a href="{{ .Permalink}}"> {{ .LinkTitle }} </a></li>
+    {{ end }}
+</ul>
+{{ end }}
