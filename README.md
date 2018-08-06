@@ -30,7 +30,7 @@ Features:
 - mobile-first design
 - two main layouts: single page and lists
 - Automatic TOCs in separate sidebar from content
-- any depth tree supported
+- tree content structure of arbitrary depth supported
 - third-party apps
   - Bootstrap 4
   - Fontawesome 5
@@ -38,7 +38,7 @@ Features:
 ### Nested subcategories
 
 The nested subcategories (aka.:sections/nested sections) get the same
-URLs as the directory structure. 
+URLs as the directory structure.
 
 | Directory  | URL |
 | ------------- | ------------- |
