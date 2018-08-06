@@ -1,7 +1,7 @@
 ---
 title: SimpleIT Theme
 subtitle: ""
-description: Clutter-free software concepts, theory and tutorials.
+description: Homepage of the website description
 ---
 
 <div>
