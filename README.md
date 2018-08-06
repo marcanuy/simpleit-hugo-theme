@@ -42,7 +42,7 @@ URLs as the directory structure.
 
 | Directory  | URL |
 | ------------- | ------------- |
-| /content/_index.md | http://example.com/_index.md |
+| /content/_index.md | http://example.com/ |
 | /content/foo-first-level-section/_index.md | http://example.com/foo-first-level-section/ |
 | /content/foo-first-level-section/foo-second-level/_index.md | http://example.com/foo-first-level-section/foo-second-level/ |
 | /content/foo-first-level-section/foo-second-level/page-at-foo-second-level.md | http://example.com/foo-first-level-section/foo-second-level/page-at-foo-second-level |
