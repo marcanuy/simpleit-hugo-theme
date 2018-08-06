@@ -1,0 +1,7 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "SimpleIT Hugo theme demo website"
+theme = 'simpleit'
+
+# Build robots.txt file
+enableRobotsTXT = true
