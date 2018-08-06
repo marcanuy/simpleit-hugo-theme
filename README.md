@@ -7,6 +7,22 @@ and sub-tree.
 
 ![SimpleIT Hugo Theme screenshot](https://raw.githubusercontent.com/marcanuy/simpleit-hugo-theme/master/images/screenshot.png)
 
+<!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
+**Table of Contents**
+
+- [SimpleIT Hugo Theme](#simpleit-hugo-theme)
+    - [Features](#features)
+        - [Nested subcategories](#nested-subcategories)
+        - [Adding content](#adding-content)
+    - [Installation](#installation)
+        - [Run locally](#run-locally)
+    - [Screenshots](#screenshots)
+    - [Contributing](#contributing)
+    - [License](#license)
+
+<!-- markdown-toc end -->
+
+
 ## Features
 
 Features:
@@ -19,10 +35,28 @@ Features:
   - Bootstrap 4
   - Fontawesome 5
 
+### Nested subcategories
+
+The nested subcategories (aka.:sections/nested sections) get the same
+URLs as the directory structure. 
+
+| Directory  | URL |
+| ------------- | ------------- |
+| /content/_index.md | http://example.com/_index.md |
+| /content/foo-first-level-section/_index.md | http://example.com/foo-first-level-section/ |
+| /content/foo-first-level-section/foo-second-level/_index.md | http://example.com/foo-first-level-section/foo-second-level/ |
+| /content/foo-first-level-section/foo-second-level/page-at-foo-second-level.md | http://example.com/foo-first-level-section/foo-second-level/page-at-foo-second-level |
+| /content/foo-first-level-section/foo-second-level/foo-third-level/_index.md | http://example.com/foo-first-level-section/foo-second-level/foo-third-level/ |
+| /content/foo-first-level-section/foo-second-level/foo-third-level/page-at-foo-third-level.md | http://example.com/foo-first-level-section/foo-second-level/foo-third-level/page-at-foo-third-level |
+| /content/foo-first-level-section/page-at-section-level.md | http://example.com/foo-first-level-section/page-at-section-level |
+| /content/bar-first-level-section/bar-page-in-section.md | http://example.com/bar-first-level-section/bar-page-in-section |
+| /content/baz-first-level-section/_index.md | http://example.com/baz-first-level-section/ |
+| /content/a-root-level-article.md | http://example.com/a-root-level-article |
+
 ### Adding content
 
 ```
-$ hugo new 
+$ hugo new <sections>/<article>.md
 ```
 
 ## Installation
