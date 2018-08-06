@@ -42,16 +42,16 @@ URLs as the directory structure.
 
 | Directory  | URL |
 | ------------- | ------------- |
-| /content/_index.md | http://example.com/ |
-| /content/foo-first-level-section/_index.md | http://example.com/foo-first-level-section/ |
-| /content/foo-first-level-section/foo-second-level/_index.md | http://example.com/foo-first-level-section/foo-second-level/ |
-| /content/foo-first-level-section/foo-second-level/page-at-foo-second-level.md | http://example.com/foo-first-level-section/foo-second-level/page-at-foo-second-level |
-| /content/foo-first-level-section/foo-second-level/foo-third-level/_index.md | http://example.com/foo-first-level-section/foo-second-level/foo-third-level/ |
-| /content/foo-first-level-section/foo-second-level/foo-third-level/page-at-foo-third-level.md | http://example.com/foo-first-level-section/foo-second-level/foo-third-level/page-at-foo-third-level |
-| /content/foo-first-level-section/page-at-section-level.md | http://example.com/foo-first-level-section/page-at-section-level |
-| /content/bar-first-level-section/bar-page-in-section.md | http://example.com/bar-first-level-section/bar-page-in-section |
-| /content/baz-first-level-section/_index.md | http://example.com/baz-first-level-section/ |
-| /content/a-root-level-article.md | http://example.com/a-root-level-article |
+| /content/_index.md | https://marcanuy.github.io/simpleit-hugo-theme/ |
+| /content/foo-first-level-section/_index.md | https://marcanuy.github.io/simpleit-hugo-theme/foo-first-level-section/ |
+| /content/foo-first-level-section/foo-second-level/_index.md | https://marcanuy.github.io/simpleit-hugo-theme/foo-first-level-section/foo-second-level/ |
+| /content/foo-first-level-section/foo-second-level/page-at-foo-second-level.md | https://marcanuy.github.io/simpleit-hugo-theme/foo-first-level-section/foo-second-level/page-at-foo-second-level |
+| /content/foo-first-level-section/foo-second-level/foo-third-level/_index.md | https://marcanuy.github.io/simpleit-hugo-theme/foo-first-level-section/foo-second-level/foo-third-level/ |
+| /content/foo-first-level-section/foo-second-level/foo-third-level/page-at-foo-third-level.md | https://marcanuy.github.io/simpleit-hugo-theme/foo-first-level-section/foo-second-level/foo-third-level/page-at-foo-third-level |
+| /content/foo-first-level-section/page-at-section-level.md | https://marcanuy.github.io/simpleit-hugo-theme/foo-first-level-section/page-at-section-level |
+| /content/bar-first-level-section/bar-page-in-section.md | https://marcanuy.github.io/simpleit-hugo-theme/bar-first-level-section/bar-page-in-section |
+| /content/baz-first-level-section/_index.md | https://marcanuy.github.io/simpleit-hugo-theme/baz-first-level-section/ |
+| /content/a-root-level-article.md | https://marcanuy.github.io/simpleit-hugo-theme/a-root-level-article |
 
 ### Adding content
 
