@@ -1,7 +1,9 @@
 SimpleIT Hugo Theme
 ========================
 
-A mobile-first design theme for Hugo 
+A mobile-first design theme for Hugo. Homepage displays the full
+content tree structure and each section/"subsection" its own articles
+and sub-tree.
 
 ![SimpleIT Hugo Theme screenshot](https://raw.githubusercontent.com/marcanuy/simpleit-hugo-theme/master/images/screenshot.png)
 
@@ -32,6 +34,11 @@ In order to see your site in action, run Hugo's built-in local server.
 
 Now enter [`localhost:1313`](http://localhost:1313) in the address bar of your browser.
 
+## Screenshots
+
+Single page screenshot:
+
+![SimpleIT Hugo Theme single page screenshot](https://raw.githubusercontent.com/marcanuy/simpleit-hugo-theme/master/images/single.png)
 
 ## Contributing
 
