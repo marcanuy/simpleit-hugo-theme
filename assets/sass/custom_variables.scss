@@ -1,0 +1,9 @@
+$enable-shadows:            true;
+$enable-gradients:          true;
+
+$font-family-serif: Lucida Bright, Lucida Fax, Palatino, "Palatino Linotype", Palladio, "URW Palladio", serif;
+$font-family-base:            $font-family-serif !default;
+
+$font-size-base:              1.1rem !default; // Assumes the browser default, typically `16px`
+$font-size-lg:                ($font-size-base * 1.4);
+$font-size-sm:                ($font-size-base * .9);
