@@ -1,7 +1,7 @@
 
 HUGO := hugo
 NPM := npm
-STATIC_DIR := static/vendor/
+STATIC_DIR := static/
 ASSETS_JS_DIR := assets/js/vendor/
 
 install-npm:
