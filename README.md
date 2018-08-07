@@ -76,7 +76,6 @@ packages, so we need to install them
 For more information read the official [setup
 guide](//gohugo.io/getting-started/installing/) of Hugo.
 
-
 ### Run locally
 
 In order to see your site in action, run Hugo's built-in local server.
@@ -85,6 +84,38 @@ In order to see your site in action, run Hugo's built-in local server.
 
 Now enter [`localhost:1313`](http://localhost:1313) in the address bar of your browser.
 
+## Notes
+
+All Bootstrap and Fontawesome SASS variables are available to
+
+- customizing the variables 
+
+  In [assets/sass/custom_variables.scss](https://github.com/marcanuy/simpleit-hugo-theme/blob/master/assets/sass/custom_variables.scss)
+  you can customize Bootstrap.
+  
+- use variables in [assets/sass/styles.css](https://github.com/marcanuy/simpleit-hugo-theme/blob/master/assets/sass/styles.scss)
+  
+  For example, using Fontawesome variables like `$fa-var-twitter`: 
+  
+  ~~~
+  .twitter {
+	  @include fa-icon;
+	  @extend .fab;
+
+		&:before {
+			content: fa-content($fa-var-twitter);
+		}
+	}
+  ~~~
+  
+  or Bootstrap variables like `$kbd-bg`:
+  
+  ~~~
+  .shell {
+    background-color: $kbd-bg;
+  }
+  ~~~
+  
 ## Screenshots
 
 Single page screenshot:
