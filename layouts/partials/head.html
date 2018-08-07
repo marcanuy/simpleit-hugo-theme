@@ -39,7 +39,7 @@
 {{ $options := (dict "targetPath" "css/style.css" "outputStyle" "compressed" "enableSourceMap" true "includePaths" (slice "themes/simpleit/node_modules")) }}
 {{ $style := resources.Get "sass/main.scss" | resources.ToCSS $options }}
 
-<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}">
+<link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
 
 
 <!-- FontAwesome 5 -->

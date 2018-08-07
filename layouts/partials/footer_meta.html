@@ -3,5 +3,5 @@
 {{ $bootstrap := resources.Get "js/vendor/bootstrap.min.js" }}
 {{ $js := slice $jquery $popperjs $bootstrap | resources.Concat "js/bundle.js" | resources.Minify }}
 
-<script src="{{$js.Permalink}}"></script>
+<script src="{{$js.RelPermalink}}"></script>
 
