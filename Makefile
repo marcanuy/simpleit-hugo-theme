@@ -17,9 +17,9 @@ build-bootstrap:
 	cp node_modules/bootstrap/dist/js/bootstrap.min.js $(ASSETS_JS_DIR)
 build: build-fontawesome build-bootstrap
 	HUGO_ENV=production $(HUGO) --source=exampleSite --themesDir=../..
-install: install-npm build
-update: update-npm build
-serve: clean build
+install: install-npm build-fontawesome build-bootstrap
+update: update-npm build-fontawesome build-bootstrap
+serve: clean build-fontawesome build-bootstrap
 	$(HUGO) server --source=exampleSite --themesDir=../..
 
 ######################
