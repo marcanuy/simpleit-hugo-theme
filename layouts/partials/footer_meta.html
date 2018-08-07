@@ -1,7 +1,7 @@
 {{ $jquery := resources.Get "js/vendor/jquery.min.js" }}
 {{ $popperjs := resources.Get "js/vendor/popper.min.js" }}
 {{ $bootstrap := resources.Get "js/vendor/bootstrap.min.js" }}
-{{ $js := slice $jquery $popperjs $bootstrap | resources.Concat "js/bundle.js" | resources.Minify }}
+{{ $js := slice $jquery $popperjs $bootstrap | resources.Concat "js/bundle.js" | resources.Minify | resources.Fingerprint "sha512" }}
 
-<script src="{{$js.RelPermalink}}"></script>
+<script src="{{$js.RelPermalink}}" integrity="{{ $js.Data.Integrity }}"></script>
 
