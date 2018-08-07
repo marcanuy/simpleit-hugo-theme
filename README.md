@@ -73,7 +73,7 @@ For more information read the official [setup guide](//gohugo.io/getting-started
 
 In order to see your site in action, run Hugo's built-in local server.
 
-    $ hugo server
+    $ hugo server -t simpleit
 
 Now enter [`localhost:1313`](http://localhost:1313) in the address bar of your browser.
 
