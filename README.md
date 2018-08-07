@@ -66,12 +66,15 @@ Inside the folder of your Hugo site run:
     $ cd themes
     $ git clone https://github.com/marcanuy/simpleit-hugo-theme
 
-This theme uses `npm` to handle packages, so we need to install them
+This theme uses
+[npm](https://docs.npmjs.com/getting-started/what-is-npm) to handle
+packages, so we need to install them
 
 	$ cd simpleit-hugo-theme
 	$ make install
 
-For more information read the official [setup guide](//gohugo.io/getting-started/installing/) of Hugo.
+For more information read the official [setup
+guide](//gohugo.io/getting-started/installing/) of Hugo.
 
 
 ### Run locally
