@@ -2,6 +2,8 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "SimpleIT Hugo theme demo website"
 theme = 'simpleit'
+disqusShortname = "simpleit-hugo-theme"
+googleAnalytics = "UA-64047109-4"
 
 # Build robots.txt file
 enableRobotsTXT = true
