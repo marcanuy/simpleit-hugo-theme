@@ -30,6 +30,7 @@ Features:
 - mobile-first design
 - two main layouts: single page and lists
 - Automatic TOCs in separate sidebar from content
+- Hugo internal templates (Open Graph, Twitter Cards, Disqus, Google Analytics)
 - tree content structure of arbitrary depth supported
 - third-party apps
   - Bootstrap 4
