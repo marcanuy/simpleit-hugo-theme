@@ -24,6 +24,9 @@ pygmentsCodefencesGuessSyntax = true
   # site handler
   twitter = "simpleitrocks"
 
+  # Buymeacoffe id (https://buymeacoffee.com)
+  buymeacoffe = "marcanuy"
+
   [params.author]
   name = "Marcelo Canina"
   country = "Uruguay"
