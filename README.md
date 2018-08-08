@@ -15,7 +15,12 @@ and sub-tree.
         - [Nested subcategories](#nested-subcategories)
         - [Adding content](#adding-content)
     - [Installation](#installation)
-        - [Run locally](#run-locally)
+        - [As a git submodule](#as-a-git-submodule)
+        - [If you don't have Hugo with git](#if-you-dont-have-hugo-with-git)
+    - [Run locally](#run-locally)
+    - [Notes for developers](#notes-for-developers)
+        - [Build](#build)
+        - [Serve](#serve)
     - [Screenshots](#screenshots)
     - [Contributing](#contributing)
     - [License](#license)
@@ -62,30 +67,36 @@ $ hugo new <sections>/<article>.md
 
 ## Installation
 
+Two options:
+
+### As a git submodule
+
+	$ git submodule add -f https://github.com/marcanuy/simpleit-hugo-theme themes/simpleit-hugo-theme
+
+### If you don't have Hugo with git
+
 Inside the folder of your Hugo site run:
 
     $ cd themes
     $ git clone https://github.com/marcanuy/simpleit-hugo-theme
 
-This theme uses
-[npm](https://docs.npmjs.com/getting-started/what-is-npm) to handle
-packages, so we need to install them
-
-	$ cd simpleit-hugo-theme
-	$ make install
-
-For more information read the official [setup
-guide](//gohugo.io/getting-started/installing/) of Hugo.
-
-### Run locally
+## Run locally
 
 In order to see your site in action, run Hugo's built-in local server.
 
-    $ hugo server -t simpleit
+    $ hugo server -t simpleit-hugo-theme
 
 Now enter [`localhost:1313`](http://localhost:1313) in the address bar of your browser.
 
-## Notes
+## Notes for developers
+
+This theme uses
+[npm](https://docs.npmjs.com/getting-started/what-is-npm) to handle
+packages, if you plan to modify something from this theme, we need to
+install its dependencies:
+
+	$ cd themes/simpleit-hugo-theme
+	$ make install
 
 All Bootstrap and Fontawesome SASS variables are available to
 
@@ -116,6 +127,20 @@ All Bootstrap and Fontawesome SASS variables are available to
     background-color: $kbd-bg;
   }
   ~~~
+
+### Build
+
+Building or serving the website:
+
+	$ cd themes/simpleit-hugo-theme
+	$ make build
+
+### Serve
+
+Serving the theme with changes:
+
+	$ cd themes/simpleit-hugo-theme
+	$ make serve
   
 ## Screenshots
 
