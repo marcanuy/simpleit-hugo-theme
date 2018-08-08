@@ -21,18 +21,6 @@ pygmentsCodefencesGuessSyntax = true
   # Format dates with Go's time formatting
   date_format = "Mon Jan 02, 2006"
 
-  # used in page level ads in head
-  google_adsense_id = "ca-pub-1234567890"
-  
-  # verification string for Google Webmaster Tools
-  #google_verify_meta = "1234567890"
-
-  # verification string for Bing Webmaster Tools
-  bing_verify_meta = "1234567890"
-
-  # verification string for Yandex Webmaster Tools
-  yandex_verify_meta = "1234568790"
-
   # site handler
   twitter = "simpleitrocks"
 
