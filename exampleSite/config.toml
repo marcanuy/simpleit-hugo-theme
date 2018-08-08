@@ -1,7 +1,7 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "SimpleIT Hugo theme demo website"
-theme = 'simpleit'
+theme = 'simpleit-hugo-theme'
 disqusShortname = "simpleit-hugo-theme"
 googleAnalytics = "UA-64047109-4"
 
