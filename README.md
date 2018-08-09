@@ -94,18 +94,27 @@ In order to see your site in action, run Hugo's built-in local server.
 
 Now enter [`localhost:1313`](http://localhost:1313) in the address bar of your browser.
 
+Or just set `theme="simpleit-hugo-theme"` in your configuration.
+
 ## Theme config
 
 Have a look at
 [/exampleSite/config.toml](https://github.com/marcanuy/simpleit-hugo-theme/blob/master/exampleSite/config.toml)
 for customization.
 
+## Updating the theme
+
+After installing the theme, if you added it as a `git submodule`, you
+can update it with:
+
+    git submodule update --remote --merge
+
 ## Notes for developers
 
-This theme uses
+If you plan to change something or contribute to theme development
+keep in mind that this theme uses
 [npm](https://docs.npmjs.com/getting-started/what-is-npm) to handle
-packages, if you plan to modify something from this theme, we need to
-install its dependencies:
+packages, to install to install its dependencies:
 
 	$ cd themes/simpleit-hugo-theme
 	$ make install
