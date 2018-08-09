@@ -1,8 +1,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-{{ template "_internal/opengraph.html" . }}
-{{ template "_internal/twitter_cards.html" . }}
+{{- template "_internal/opengraph.html" . -}}
+{{- template "_internal/schema.html" . -}}
+{{- template "_internal/twitter_cards.html" . -}}
 
 {{- with .Site.Params.google_verify_meta -}}
 <meta name="google-site-verification" content="{{ . }}" />
@@ -28,8 +29,6 @@
 <meta name="author" content="{{.}}">
 {{ end }}
 
-{{ partial "favicons.html" . }}
-
 <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
 <link rel="canonical" href="{{ .Permalink }}">
 
@@ -44,3 +43,5 @@
 {{ if .Site.Params.cookie_consent_info_url }}
 {{ partial "cookie-consent.html" . }}
 {{ end }}
+
+{{ partial "head_custom" . }}
