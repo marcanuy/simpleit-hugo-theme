@@ -40,7 +40,7 @@ Features:
 - Google Adsense:
   - Page level
   - Automatic ads
-- [Buy me a coffee](https://buymeacoffee.com) link button in articles
+- [Buy me a coffee](https://buymeacoffee.com) button in articles
 - tree content structure of arbitrary depth supported
 - third-party apps
   - Bootstrap 4
