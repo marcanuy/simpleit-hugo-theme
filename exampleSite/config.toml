@@ -21,6 +21,10 @@ pygmentsCodefencesGuessSyntax = true
   # Format dates with Go's time formatting
   date_format = "Mon Jan 02, 2006"
 
+  # Your copyright notice - appears in site footer.
+  # To display a copyright symbol, type `&copy;`.
+  copyright = "&copy; 2018"
+
   # used in page level ads in head
   #google_adsense_id = "ca-pub-1234567890"
   
