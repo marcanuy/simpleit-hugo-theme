@@ -1,9 +1,10 @@
 SimpleIT Hugo Theme
 ========================
 
-A mobile-first design theme for Hugo. Homepage displays the full
-content tree structure and each section/"subsection" its own articles
-and sub-tree.
+Responsive Hugo theme displaying articles by directory. 
+
+Homepage displays the full directory tree structure and each
+section/"subsection" its own articles and nested sections.
 
 ![SimpleIT Hugo Theme screenshot](https://raw.githubusercontent.com/marcanuy/simpleit-hugo-theme/master/images/screenshot.png)
 

@@ -2,13 +2,12 @@
 # See https://github.com/gohugoio/hugoThemes#themetoml for an example
 
 name = "SimpleIT"
-baseurl = "https://example.org/"
 license = "MIT"
-licenselink = "https://github.com/marcanuy/simpleit/blob/master/LICENSE"
-description = ""
+licenselink = "https://github.com/marcanuy/simpleit-hugo-theme/blob/master/LICENSE"
+description = "Responsive Hugo theme displaying articles by directory"
 homepage = "https://marcanuy.github.io/simpleit-hugo-theme/"
-tags = []
-features = []
+tags = ['responsive', 'bootstrap', 'font awesome']
+features = ['mobile first design', 'tree like displaying of articles and directory contents']
 min_version = "0.41"
 
 [author]
