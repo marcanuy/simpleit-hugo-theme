@@ -1,10 +1,10 @@
 <div>
     <a class="twitter-share-button"
        href="https://twitter.com/share"
-       data-url="{{ .Permalink }}"
-       data-via=""
-       data-text="{{ .Description | truncate 100 }} by @{{.Site.Params.twitter}}"
-       data-related="{{.Site.Params.twitter}},{{.Site.Params.author.twitter}}"
+       data-url="{{ .RelPermalink }}"
+       data-via="{{with .Site.Params.twitter}}{{.}}{{end}}"
+       data-text="{{with .Description}}{{ . | truncate 100 }}{{end}}"
+       data-related="{{with .Site.Params.author.twitter}}{{.}}{{end}}"
        data-count="vertical">
 	Tweet
     </a>
