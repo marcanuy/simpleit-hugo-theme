@@ -93,6 +93,12 @@ In order to see your site in action, run Hugo's built-in local server.
 
 Now enter [`localhost:1313`](http://localhost:1313) in the address bar of your browser.
 
+## Theme config
+
+Have a look at
+[/exampleSite/config.toml](https://github.com/marcanuy/simpleit-hugo-theme/blob/master/exampleSite/config.toml)
+for customization.
+
 ## Notes for developers
 
 This theme uses
