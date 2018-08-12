@@ -1,7 +1,12 @@
 {{ define "main"}}
-    <main id="main">
-      <div>
-       <h1 id="title"><a href="{{ "/" | relURL }}">Go Home</a></h1>
-      </div>
+<div class="error-container text-center d-flex w-100 h-100 p-3 mx-auto flex-column">
+    <main role="main" class="inner error ">
+	<div class="float-left"><i class="fas fa-exclamation-triangle fa-10x"></i></div>
+	<h1 class="cover-heading">Error 404</h1>
+	<p class="lead"> Nothing to see here.</p>
+	<p class="lead">
+            <a href="{{ "/" | relURL }}" class="btn btn-lg btn-/secondary">Get back home</a>
+	</p>
     </main>
+</div>
 {{ end }}
