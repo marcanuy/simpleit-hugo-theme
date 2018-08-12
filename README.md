@@ -12,24 +12,26 @@ section/"subsection" its own articles and nested sections.
 **Table of Contents**
 
 - [SimpleIT Hugo Theme](#simpleit-hugo-theme)
-    - [Features](#features)
-        - [Nested subcategories](#nested-subcategories)
-        - [Adding content](#adding-content)
-    - [Installation](#installation)
-        - [As a git submodule](#as-a-git-submodule)
-        - [If you don't have Hugo with git](#if-you-dont-have-hugo-with-git)
-    - [Run locally](#run-locally)
-    - [Notes for developers](#notes-for-developers)
-        - [Build](#build)
-        - [Serve](#serve)
-    - [Screenshots](#screenshots)
-    - [Contributing](#contributing)
-    - [License](#license)
+- [Features](#features)
+    - [Nested subcategories](#nested-subcategories)
+    - [Adding content](#adding-content)
+- [Installation](#installation)
+    - [As a git submodule](#as-a-git-submodule)
+    - [If you don't have Hugo with git](#if-you-dont-have-hugo-with-git)
+- [Run locally](#run-locally)
+- [Theme config](#theme-config)
+- [Updating the theme](#updating-the-theme)
+- [Notes for developers](#notes-for-developers)
+    - [Build](#build)
+    - [Serve](#serve)
+- [Screenshots](#screenshots)
+- [Contributing](#contributing)
+- [License](#license)
 
 <!-- markdown-toc end -->
 
 
-## Features
+# Features
 
 Features:
 
@@ -47,7 +49,7 @@ Features:
   - Bootstrap 4
   - Fontawesome 5
 
-### Nested subcategories
+## Nested subcategories
 
 The nested subcategories (aka.:sections/nested sections) get the same
 URLs as the directory structure.
@@ -65,28 +67,36 @@ URLs as the directory structure.
 | /content/baz-first-level-section/_index.md | https://marcanuy.github.io/simpleit-hugo-theme/baz-first-level-section/ |
 | /content/a-root-level-article.md | https://marcanuy.github.io/simpleit-hugo-theme/a-root-level-article |
 
-### Adding content
+# Adding content
 
 ```
 $ hugo new <sections>/<article>.md
 ```
 
-## Installation
+# Installation
 
 Two options:
 
-### As a git submodule
+## As a git submodule
 
 	$ git submodule add -f https://github.com/marcanuy/simpleit-hugo-theme themes/simpleit-hugo-theme
 
-### If you don't have Hugo with git
+## If you don't have Hugo with git
 
 Inside the folder of your Hugo site run:
 
     $ cd themes
     $ git clone https://github.com/marcanuy/simpleit-hugo-theme
 
-## Run locally
+# Updating the theme
+
+After installing the theme, if you added it as a `git submodule`, you
+can update it with:
+
+    git submodule update --remote --merge
+
+
+# Run locally
 
 In order to see your site in action, run Hugo's built-in local server.
 
@@ -96,25 +106,18 @@ Now enter [`localhost:1313`](http://localhost:1313) in the address bar of your b
 
 Or just set `theme="simpleit-hugo-theme"` in your configuration.
 
-## Theme config
+# Theme config
 
 Have a look at
 [/exampleSite/config.toml](https://github.com/marcanuy/simpleit-hugo-theme/blob/master/exampleSite/config.toml)
-for customization.
+for theme customization options.
 
-## Updating the theme
-
-After installing the theme, if you added it as a `git submodule`, you
-can update it with:
-
-    git submodule update --remote --merge
-
-## Notes for developers
+# Notes for developers
 
 If you plan to change something or contribute to theme development
 keep in mind that this theme uses
 [npm](https://docs.npmjs.com/getting-started/what-is-npm) to handle
-packages, to install to install its dependencies:
+packages, to install its dependencies:
 
 	$ cd themes/simpleit-hugo-theme
 	$ make install
@@ -128,7 +131,7 @@ All Bootstrap and Fontawesome SASS variables are available to
   
 - use variables in [assets/sass/styles.css](https://github.com/marcanuy/simpleit-hugo-theme/blob/master/assets/sass/styles.scss)
   
-  For example, using Fontawesome variables like `$fa-var-twitter`: 
+  For example, using Fontawesome variables like `$fa-var-twitter`, in `assets/sass/styles.scss`: 
   
   ~~~
   .twitter {
@@ -141,7 +144,7 @@ All Bootstrap and Fontawesome SASS variables are available to
 	}
   ~~~
   
-  or Bootstrap variables like `$kbd-bg`:
+  or using Bootstrap variables like `$kbd-bg` , in `assets/sass/styles.scss`:
   
   ~~~
   .shell {
@@ -149,32 +152,29 @@ All Bootstrap and Fontawesome SASS variables are available to
   }
   ~~~
 
-### Build
+## Build
 
 Building or serving the website:
 
 	$ cd themes/simpleit-hugo-theme
 	$ make build
 
-### Serve
-
 Serving the theme with changes:
 
 	$ cd themes/simpleit-hugo-theme
 	$ make serve
   
-## Screenshots
+# Screenshots
 
 Single page screenshot:
 
 ![SimpleIT Hugo Theme single page screenshot](https://raw.githubusercontent.com/marcanuy/simpleit-hugo-theme/master/images/single.png)
 
-## Contributing
+# Contributing
 
 Did you found a bug or got an idea for a new feature? Feel free to use the [issue tracker](//github.com/marcanu/simpleit-hugo-theme/issues) to let me know. Or make directly a [pull request](//github.com/marcanuy/simpleit-hugo-theme/pulls).
 
-
-## License
+# License
 
 This theme is released under the MIT License. For more information read the [License](//github.com/marcanuy/simpleit-hugo-theme/blob/master/LICENSE).
 
