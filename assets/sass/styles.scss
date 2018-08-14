@@ -1,7 +1,3 @@
-body {
-    font-size: .875rem;
-}
-
 .feather {
     width: 16px;
     height: 16px;
@@ -17,9 +13,29 @@ body {
     top: 0;
     bottom: 0;
     left: 0;
+    font-size: ($font-size-base * 0.9);
     z-index: 100; /* Behind the navbar */
-    padding: 48px 0 0; /* Height of navbar */
+    padding: 60px 0 0; /* Height of navbar 48px */
     box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+
+    .nav-link {
+	font-weight: 500;
+	color: #333;
+    }
+
+    .nav-link .feather {
+	margin-right: 4px;
+	color: #999;
+    }
+
+    .nav-link.active {
+	color: #007bff;
+    }
+
+    .nav-link:hover .feather,
+    .nav-link.active .feather {
+	color: inherit;
+    }
 }
 
 .sidebar-sticky {
@@ -36,25 +52,6 @@ body {
 	position: -webkit-sticky;
 	position: sticky;
     }
-}
-
-.sidebar .nav-link {
-    font-weight: 500;
-    color: #333;
-}
-
-.sidebar .nav-link .feather {
-    margin-right: 4px;
-    color: #999;
-}
-
-.sidebar .nav-link.active {
-    color: #007bff;
-}
-
-.sidebar .nav-link:hover .feather,
-.sidebar .nav-link.active .feather {
-    color: inherit;
 }
 
 .sidebar-heading {
@@ -156,11 +153,11 @@ body {
  */
 .shell {
 
-    background-color: #101112; //$kbd-bg;
+    background-color: $kbd-bg;
     padding: 0.5rem 1rem;
     border-radius: 0.2rem;
     box-shadow: inset 0 -0.1rem 0 rgba(0, 0, 0, 0.25);
-    color: #fff; //$kbd-color;
+    color: $kbd-color;
     
     .shell-prompt {
 	color: #0c0;
