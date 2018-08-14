@@ -1,0 +1,7 @@
+{{ if .Site.IsServer }}
+<!-- DEVELOPMENT -->
+{{"<!-- Googla analytics placeholder -->" | safeHTML}}
+{{ else }}
+<!-- PRODUCTION -->
+{{ template "_internal/google_analytics_async.html" . }}
+{{ end }}

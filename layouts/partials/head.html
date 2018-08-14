@@ -38,7 +38,7 @@
 
 <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
 
-{{ template "_internal/google_analytics_async.html" . }}
+{{ partial "google_analytics.html" . }}
 
 {{ if .Site.Params.cookie_consent_info_url }}
 {{ partial "cookie-consent.html" . }}
