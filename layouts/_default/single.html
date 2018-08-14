@@ -39,6 +39,7 @@
 		<div class="col-8">
 		    {{ with .Params.Subtitle }}<p class="text-muted">{{.}}</p>{{ end }}
 		</div>
+		{{ if .PublishDate }}
 		<div class="col-4">
 		    <div class="btn-toolbar mb-2 mb-md-0">
 			<ul class="mr-2 text-muted">
@@ -49,6 +50,7 @@
 			</ul>
 		    </div>
 		</div>
+		{{ end }}
 	    </div>
 
 
