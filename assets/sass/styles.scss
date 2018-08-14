@@ -133,20 +133,17 @@
  * Footer
  */
 .site-footer {
-    background-color: #fbfbf7;
-    border-top: 1px solid #e4e4e4;
+    border-top: 2px solid $gray-300;
     margin-top: 5em;
 
     .footer-nav {
 	list-style-type: none;
     }
+
+    .footer-nav li .fa {
+	padding-right: 5px;
+    }
 }
-
-
-.site-footer .footer-nav li .fa {
-    padding-right: 5px;
-}
-
 
 /*
  * Shell console
