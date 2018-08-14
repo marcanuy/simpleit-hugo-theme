@@ -196,7 +196,7 @@ blockquote{
     margin:50px auto;
     font-family:Open Sans;
     font-style:italic;
-    color: $dark;
+    color: $gray-700;
     padding:1.2em 30px 1.2em 75px;
     border-left:8px solid $dark;
     line-height:1.6;
@@ -205,10 +205,10 @@ blockquote{
 }
 
 blockquote::before{
-    font-family:Arial;
+    font-family: Arial;
     content: "\201C";
-    color:$dark;
-    font-size:4em;
+    color: $dark;
+    font-size: 4em;
     position: absolute;
     left: 10px;
     top:-10px;
