@@ -44,4 +44,9 @@
 {{ partial "cookie-consent.html" . }}
 {{ end }}
 
+{{ range .AlternativeOutputFormats -}}
+{{/* RSS feeds and other formats generator https://gohugo.io/templates/rss/#reference-your-rss-feed-in-head */}}
+{{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+{{ end -}}
+
 {{ partial "head_custom" . }}
