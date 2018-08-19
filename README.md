@@ -112,6 +112,15 @@ Have a look at
 [/exampleSite/config.toml](https://github.com/marcanuy/simpleit-hugo-theme/blob/master/exampleSite/config.toml)
 for theme customization options.
 
+# Customizing styles for your website
+
+If you want to change some styling to fit your own website needs, copy
+the following files to your website root path and edit them:
+
+- `assets/sass/custom_variables.scss`: customize variables used by Bootstrap.
+- `assets/sass/styles.scss`: your main website styles with all
+  Bootstrap variables avaiable.
+
 # Notes for developers
 
 If you plan to change something or contribute to theme development
