@@ -48,6 +48,10 @@ Features:
 - third-party apps
   - Bootstrap 4
   - Fontawesome 5
+- Choose Share Buttons type
+  - static generated with https://sharingbuttons.io/ (fast, minimal footprint)
+  - each site javascript share buttons (Google, Twitter and Facebook
+    with counter)
 
 ## Nested subcategories
 
