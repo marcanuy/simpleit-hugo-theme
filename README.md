@@ -56,7 +56,8 @@ Features:
 ## Nested subcategories
 
 The nested subcategories (aka.:sections/nested sections) get the same
-URLs as the directory structure.
+URLs as the directory structure, for example, the following
+directory/files would be available at these URLs:
 
 | Directory  | URL |
 | ------------- | ------------- |
@@ -65,10 +66,6 @@ URLs as the directory structure.
 | /content/foo-first-level-section/foo-second-level/_index.md | https://marcanuy.github.io/simpleit-hugo-theme/foo-first-level-section/foo-second-level/ |
 | /content/foo-first-level-section/foo-second-level/page-at-foo-second-level.md | https://marcanuy.github.io/simpleit-hugo-theme/foo-first-level-section/foo-second-level/page-at-foo-second-level |
 | /content/foo-first-level-section/foo-second-level/foo-third-level/_index.md | https://marcanuy.github.io/simpleit-hugo-theme/foo-first-level-section/foo-second-level/foo-third-level/ |
-| /content/foo-first-level-section/foo-second-level/foo-third-level/page-at-foo-third-level.md | https://marcanuy.github.io/simpleit-hugo-theme/foo-first-level-section/foo-second-level/foo-third-level/page-at-foo-third-level |
-| /content/foo-first-level-section/page-at-section-level.md | https://marcanuy.github.io/simpleit-hugo-theme/foo-first-level-section/page-at-section-level |
-| /content/bar-first-level-section/bar-page-in-section.md | https://marcanuy.github.io/simpleit-hugo-theme/bar-first-level-section/bar-page-in-section |
-| /content/baz-first-level-section/_index.md | https://marcanuy.github.io/simpleit-hugo-theme/baz-first-level-section/ |
 | /content/a-root-level-article.md | https://marcanuy.github.io/simpleit-hugo-theme/a-root-level-article |
 
 # Adding content
@@ -76,6 +73,106 @@ URLs as the directory structure.
 ```
 $ hugo new <sections>/<article>.md
 ```
+
+There are two types of Posts, with and without images. The cleanest
+way to have them is to create a directory for those posts that have
+images, and put all the post's images in that directory.
+
+## Adding posts without images
+
+A post without a cover image should be created with the slug as the
+filename inside the directory you want, for example, to create the
+post
+`http://example.com/foo-first-level-section/page-at-foo-first-level`
+you should create the file `/content/foo-first-level-section/foo-second-level/page-at-foo-second-level.md`
+
+*slug* will be obtained from post's filename
+
+~~~
+---
+title: "Post example without images"
+date: 2019-01-10
+subtitle: ''
+description: ''
+---
+
+## Overview
+
+Here I don't use any image!
+~~~
+
+## Adding posts with images
+
+Posts with images can have two types of images:
+
+- Cover image
+  - Displayed at the top section of the post
+  - Used in *Facebook's OpenGraph* / *Twitter cards* metadata (a.k.a.
+    the
+    image that will be displayed when sharing the post in those Social
+    Networks)
+  - Should be defined at post's frontmatter.
+- Content images
+  - Images used along the post content
+
+For example, to create the post
+`http://example.com/foo-first-level-section/page-at-foo-first-level`
+you should create the directory with the *slug* name and content
+inside the directory as an `index.md` file
+`/content/foo-first-level-section/foo-second-level/page-at-foo-second-level/index.md`.
+
+All images used by this post goes inside the above directory (`/content/foo-first-level-section/foo-second-level/page-at-foo-second-level/`)
+
+And *slug* will be obtained from post's directory name.
+
+To add the cover image, so it can be displayed used add the metadata
+to the **resources** section and locate the image in the newly created
+directory `/content/foo-first-level-section/foo-second-level/page-at-foo-second-level/victor_hugo.jpg`.
+
+Then other images in same directory and used in content `/content/foo-first-level-section/foo-second-level/page-at-foo-second-level/dcu_models.jpg`
+
+~~~
+---
+title: "Post example with images in cover and content"
+date: 2019-01-10
+subtitle: ''
+description: ''
+resources:
+- name: header
+  src: victor_hugo.jpg
+  title: "Portrait photograph of Victor Hugo"
+  params: #can be ommited
+    license: "Public Domain"
+    original: "https://commons.wikimedia.org/wiki/File:Victor_Hugo_by_%C3%89tienne_Carjat_1876_-_full.jpg"
+---
+
+## Overview
+
+Hey! I have an image. 
+
+<img class="img-fluid" alt="model diagram" src="dcu_models.jpg" /> 
+
+~~~
+
+Tree directory structure of
+`/content/foo-first-level-section/foo-second-level/page-at-foo-second-level/`
+would look like:
+
+~~~
+.
+|_ index.md
+|_ dcu_models.jpg
+|_ victor_hugo.jpg
+~~~
+
+## Adding images used in many posts
+
+You can also add images to site's root at `/assets/img/` and then use
+it directly referring them with full path `/img/....`.
+
+For example, for `my_image.png` at `/assets/img/`
+ then it can be used in multiple posts:
+`<img class="img-fluid" alt="example image" src="/img/my_image.png" />`.
 
 # Installation
 
