@@ -1,9 +1,9 @@
 {
 	"version": 3,
 	"file": "style.css",
-	"sourceRoot": "/home/marcanuy/Development/simpleit-hugo/themes/simpleit-hugo-theme/exampleSite",
+	"sourceRoot": "/home/marcanuy/Development/pullgravity-hugo/themes/simpleit-hugo-theme/exampleSite",
 	"sources": [
-		"/home/marcanuy/Development/simpleit-hugo/themes/simpleit-hugo-theme/assets/sass/main.scss",
+		"/home/marcanuy/Development/pullgravity-hugo/themes/simpleit-hugo-theme/assets/sass/main.scss",
 		"assets/sass/custom_variables.scss",
 		"node_modules/bootstrap/scss/bootstrap.scss",
 		"node_modules/bootstrap/scss/_functions.scss",
