@@ -284,6 +284,14 @@ Single page screenshot:
 
 Did you found a bug or got an idea for a new feature? Feel free to use the [issue tracker](//github.com/marcanu/simpleit-hugo-theme/issues) to let me know. Or make directly a [pull request](//github.com/marcanuy/simpleit-hugo-theme/pulls).
 
+# Websites using theme
+
+Hugo websites using this theme:
+
+- https://simpleit.rocks
+
+Add your own website here with a Pull Request!
+
 # License
 
 This theme is released under the MIT License. For more information read the [License](//github.com/marcanuy/simpleit-hugo-theme/blob/master/LICENSE).
