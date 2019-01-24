@@ -28,7 +28,7 @@
 
             </div>
 
-	    {{ with .Page.Resources.GetMatch "header" }}
+	    {{ with .Page.Resources.GetMatch "cover" }}
 	    <figure class="figure">
 		<img src="{{.RelPermalink}}" class="figure-img img-fluid rounded" alt="{{.Title}}">
 		<figcaption class="figure-caption text-center">{{.Title}} {{ with .Params.license }}<small>(License: {{.}})</small>{{end}}</figcaption>

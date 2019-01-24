@@ -125,9 +125,25 @@ All images used by this post goes inside the above directory (`/content/foo-firs
 
 And *slug* will be obtained from post's directory name.
 
-To add the cover image, so it can be displayed used add the metadata
-to the **resources** section and locate the image in the newly created
-directory `/content/foo-first-level-section/foo-second-level/page-at-foo-second-level/victor_hugo.jpg`.
+To add the cover image, so it can be displayed by OpenGraph and
+Twitter, add the metadata to the **resources** frontmatter section and
+put the image in the newly created directory
+`/content/foo-first-level-section/foo-second-level/page-at-foo-second-level/victor_hugo.jpg`.
+
+The featured image resource **name** must be **cover** so it will be
+ used as the featured image of the article.
+
+This follows the standard name name defined by Hugo for [Twitter Cards
+featured image](https://gohugo.io/templates/internal/#twitter-cards).
+ 
+Rest of images should be configured in an **images** array in front
+matter, being the first one the featured image. This will be used in
+Facebook's OpenGraph metadata and Twitter Cards image section, so it
+is displayed when sharing them.
+
+In *images* array, the full path after *content* directory preppended
+to image name should be used, as Hugo loads them preppending the
+website's domain.
 
 Then other images in same directory and used in content `/content/foo-first-level-section/foo-second-level/page-at-foo-second-level/dcu_models.jpg`
 
@@ -137,8 +153,11 @@ title: "Post example with images in cover and content"
 date: 2019-01-10
 subtitle: ''
 description: ''
+images:
+- foo-first-level-section/foo-second-level/page-at-foo-second-level/victor_hugo.jpg
+- foo-first-level-section/foo-second-level/page-at-foo-second-level/dcu_models.jpg
 resources:
-- name: header
+- name: cover # this should be the name if you want it to appear as article's featured image and used by OpenGraph and Twitter cards
   src: victor_hugo.jpg
   title: "Portrait photograph of Victor Hugo"
   params: #can be ommited
@@ -148,7 +167,7 @@ resources:
 
 ## Overview
 
-Hey! I have an image. 
+Hey! I have an image that it is not featured, look:
 
 <img class="img-fluid" alt="model diagram" src="dcu_models.jpg" /> 
 

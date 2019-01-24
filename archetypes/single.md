@@ -4,8 +4,11 @@ date: {{ .Date }}
 draft: true
 subtitle: ''
 description: ''
+images:
+- first-dir/second-dir/victor_hugo.jpg # image used in metadata, OpenGraph and Twitter cards, first 6 images are also used by OpenGraph
+- first-dir/second-dir/other_image.jpg # full path after *content* directory preppended to image name
 resources:
-- name: #header
+- name: cover # this should be the name if you want it to appear as article's featured image of the article
   src: #victor_hugo.jpg
   title: #Portrait photograph of Victor Hugo
   params:
