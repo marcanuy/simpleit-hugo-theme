@@ -3,7 +3,7 @@
     <head>
 	{{- partial "head.html" . -}}
     </head>
-    <body>
+    <body itemscope itemtype="http://schema.org/WebPage">
         {{- partial "header.html" . -}}
         {{- block "main" . -}}{{- end -}}
         {{- partial "footer_meta.html" . -}}
