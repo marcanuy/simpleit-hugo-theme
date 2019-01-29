@@ -1,7 +1,7 @@
 {{$author := .Site.Params.author}}
 {{if $author}}
 <footer class="author-footer">
-    <div class="media" itemtype="https://schema.org/Person">
+    <div class="media" itemprop="creator" itemscope itemtype="https://schema.org/Person">
 	<span itemprop="locationCreated contentLocation spatialCoverage" itemscope="itemscope" itemtype="https://schema.org/City" style="display:none"><span itemprop="name">{{ $author.country }}</span>
 	</span>
 	<link href="https://plus.google.com/{{$author.google_plus}}/posts" rel="author"/>
