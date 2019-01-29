@@ -18,12 +18,12 @@
 		<address class="author-info clear" id="author-info" itemprop="author creator" itemscope="" itemtype="https://schema.org/Person">
 		    {{with $author.name}}<span class="author-name" itemprop="name">{{.}}</span>{{end}}
 		    {{with $author.twitter}}<a class="a-social a-tw" href="https://twitter.com/{{.}}" itemprop="sameAs" target="_blank"><i class="fab fa-twitter-square"></i></a>{{end}}
-		    {{with $author.google_plus}}<a class="a-social a-gp" href="https://plus.google.com/{{.}}?rel=author" itemprop="url sameAs" rel="author" target="_blank"><i class="fab fa-google-plus-square"></i></a>{{end}}
+		    {{with $author.google_plus}}<a class="a-social a-gp" href="https://plus.google.com/{{.}}?rel=author" itemprop="sameAs" rel="author" target="_blank"><i class="fab fa-google-plus-square"></i></a>{{end}}
 		    {{with $author.linkedin}}<a class="a-social a-ln" href="https://www.linkedin.com/in/{{.}}" itemprop="sameAs" target="_blank"><i class="fab fa-linkedin"></i></a>{{end}}
-		    {{with $author.mail}}<a class="a-social a-email" href="mailto:{{.}}" itemprop="email sameAs" target="_blank"><i class="fa fa-envelope-square"></i></a>{{end}}
-		    {{with $author.github}}<a class="a-social a-github" href="https://github.com/{{.}}" itemprop="github sameAs" target="_blank"><i class="fab fa-github-square"></i></a>{{end}}
-		    {{with $author.gitlab}}<a class="a-social a-gitlab" href="https://gitlab.com/{{.}}" itemprop="gitlab sameAs" target="_blank"><i class="fab fa-gitlab"></i></a>{{end}}
-		    {{with $author.stackexchange}}<a class="a-social a-stackexchange" href="https://stackexchange.com/users/{{.}}?tab=accounts" itemprop="stackexchange sameAs" target="_blank"><i class="fab fa-stack-exchange"></i></a>{{end}}
+		    {{with $author.mail}}<a class="a-social a-email" href="mailto:{{.}}" itemprop="sameAs" target="_blank"><i class="fa fa-envelope-square"></i></a>{{end}}
+		    {{with $author.github}}<a class="a-social a-github" href="https://github.com/{{.}}" itemprop="sameAs" target="_blank"><i class="fab fa-github-square"></i></a>{{end}}
+		    {{with $author.gitlab}}<a class="a-social a-gitlab" href="https://gitlab.com/{{.}}" itemprop="sameAs" target="_blank"><i class="fab fa-gitlab"></i></a>{{end}}
+		    {{with $author.stackexchange}}<a class="a-social a-stackexchange" href="https://stackexchange.com/users/{{.}}?tab=accounts" itemprop="sameAs" target="_blank"><i class="fab fa-stack-exchange"></i></a>{{end}}
 		</address>
 	    </h5>
 	    <div class="text-muted">
