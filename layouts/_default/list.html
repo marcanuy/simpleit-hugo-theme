@@ -1,0 +1,23 @@
+{{ define "main" }}
+
+<div class="container">
+    <div class="row">
+	<main aria-role="main" class="col mt-5">
+	    <header>
+		<h1>{{.Title}}</h1>
+            </header>	    
+	    <div class="homepage-content mt-5">
+		{{.Content}}
+	    </div>
+
+	    <div>
+		{{ partial "sections-tree.html" . }}
+	    </div>
+
+	</main>
+    </div>
+</div>
+
+{{- partial "footer.html" . -}}
+
+{{ end }}
