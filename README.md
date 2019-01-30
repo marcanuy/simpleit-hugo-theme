@@ -14,18 +14,23 @@ section/"subsection" its own articles and nested sections.
 - [SimpleIT Hugo Theme](#simpleit-hugo-theme)
 - [Features](#features)
     - [Nested subcategories](#nested-subcategories)
-    - [Adding content](#adding-content)
+- [Adding content](#adding-content)
+    - [Adding posts without images](#adding-posts-without-images)
+    - [Adding posts with images](#adding-posts-with-images)
+    - [Adding images used in many posts](#adding-images-used-in-many-posts)
 - [Installation](#installation)
     - [As a git submodule](#as-a-git-submodule)
     - [If you don't have Hugo with git](#if-you-dont-have-hugo-with-git)
+- [Updating the theme](#updating-the-theme)
 - [Run locally](#run-locally)
 - [Theme config](#theme-config)
-- [Updating the theme](#updating-the-theme)
+    - [Website in subdirectory](#website-in-subdirectory)
+- [Customizing styles for your website](#customizing-styles-for-your-website)
 - [Notes for developers](#notes-for-developers)
     - [Build](#build)
-    - [Serve](#serve)
 - [Screenshots](#screenshots)
 - [Contributing](#contributing)
+- [Websites using theme](#websites-using-theme)
 - [License](#license)
 
 <!-- markdown-toc end -->
@@ -232,16 +237,7 @@ Have a look at
 [/exampleSite/config.toml](https://github.com/marcanuy/simpleit-hugo-theme/blob/master/exampleSite/config.toml)
 for theme customization options.
 
-# Customizing styles for your website
-
-If you want to change some styling to fit your own website needs, copy
-the following files to your website root path and edit them:
-
-- `assets/sass/custom_variables.scss`: customize variables used by Bootstrap.
-- `assets/sass/styles.scss`: your main website styles with all
-  Bootstrap variables avaiable.
-
-# Set correct 
+## Website in subdirectory
 
 If the website is located in a subdirectory like `example.com/blog/`
 then URLs should be generated with an absolute path with the following
@@ -250,6 +246,16 @@ configuration:
 ~~~
 canonifyURLs = true
 ~~~
+
+
+# Customizing styles for your website
+
+If you want to change some styling to fit your own website needs, copy
+the following files to your website root path and edit them:
+
+- `assets/sass/custom_variables.scss`: customize variables used by Bootstrap.
+- `assets/sass/styles.scss`: your main website styles with all
+  Bootstrap variables avaiable.
 
 # Notes for developers
 

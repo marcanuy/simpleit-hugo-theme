@@ -4,6 +4,8 @@ title = "SimpleIT Hugo theme demo website"
 theme = 'simpleit-hugo-theme'
 #disqusShortname = "simpleit-hugo-theme"
 #googleAnalytics = "UA-64047109-4"
+# If site is in subfolder e.g.: example.com/blog then
+# set canonifyURLs to true to generate absolute paths
 #canonifyURLs = true
 
 # Build robots.txt file
