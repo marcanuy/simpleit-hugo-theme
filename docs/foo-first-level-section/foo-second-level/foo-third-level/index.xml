@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Foo third level nested section on </title>
+    <title>Foo third level nested section on SimpleIT Hugo theme demo website</title>
     <link>https://marcanuy.github.io/simpleit-hugo-theme/foo-first-level-section/foo-second-level/foo-third-level/</link>
-    <description>Recent content in Foo third level nested section on </description>
+    <description>Recent content in Foo third level nested section on SimpleIT Hugo theme demo website</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
     <lastBuildDate>Mon, 06 Aug 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://marcanuy.github.io/simpleit-hugo-theme/foo-first-level-section/foo-second-level/foo-third-level/index.xml" rel="self" type="application/rss+xml" />
