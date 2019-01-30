@@ -241,6 +241,16 @@ the following files to your website root path and edit them:
 - `assets/sass/styles.scss`: your main website styles with all
   Bootstrap variables avaiable.
 
+# Set correct 
+
+If the website is located in a subdirectory like `example.com/blog/`
+then URLs should be generated with an absolute path with the following
+configuration:
+
+~~~
+canonifyURLs = true
+~~~
+
 # Notes for developers
 
 If you plan to change something or contribute to theme development
