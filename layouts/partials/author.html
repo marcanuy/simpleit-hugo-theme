@@ -4,10 +4,8 @@
     <div class="media">
 	<span itemprop="locationCreated contentLocation spatialCoverage" itemscope="itemscope" itemtype="https://schema.org/City" style="display:none"><span itemprop="name">{{ $author.country }}</span>
 	</span>
-	<link href="https://plus.google.com/{{$author.google_plus}}/posts" rel="author"/>
 	<meta content="{{$author.website}}" property="article:author"/>
 	<meta content="@{{$author.twitter}}" name="twitter:creator"/>
-	<meta content="https://plus.google.com/{{$author.google_plus}}/posts" name="DC.creator"/>
 	<meta content="{{$author.name}}" name="author"/>
 	
 	<a class="media-left mx-2" href="{{$author.website}}" itemprop="url" rel="author">
@@ -18,7 +16,6 @@
 		<address class="author-info clear" id="author-info" itemprop="author creator" itemscope="" itemtype="https://schema.org/Person">
 		    {{with $author.name}}<span class="author-name" itemprop="name">{{.}}</span>{{end}}
 		    {{with $author.twitter}}<a class="a-social a-tw" href="https://twitter.com/{{.}}" itemprop="sameAs" target="_blank"><i class="fab fa-twitter-square"></i></a>{{end}}
-		    {{with $author.google_plus}}<a class="a-social a-gp" href="https://plus.google.com/{{.}}?rel=author" itemprop="sameAs" rel="author" target="_blank"><i class="fab fa-google-plus-square"></i></a>{{end}}
 		    {{with $author.linkedin}}<a class="a-social a-ln" href="https://www.linkedin.com/in/{{.}}" itemprop="sameAs" target="_blank"><i class="fab fa-linkedin"></i></a>{{end}}
 		    {{with $author.mail}}<a class="a-social a-email" href="mailto:{{.}}" itemprop="sameAs" target="_blank"><i class="fa fa-envelope-square"></i></a>{{end}}
 		    {{with $author.github}}<a class="a-social a-github" href="https://github.com/{{.}}" itemprop="sameAs" target="_blank"><i class="fab fa-github-square"></i></a>{{end}}
