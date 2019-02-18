@@ -43,19 +43,28 @@
 	    {{ end }}
 
 	    <div class="row">
+		{{ with .Params.Subtitle }}
 		<div class="col-8">
-		    {{ with .Params.Subtitle }}<p class="text-muted">{{.}}</p>{{ end }}
+		    <p class="text-muted">{{.}}</p>
 		</div>
+		{{ end }}
 		{{ if .PublishDate }}
-		<div class="col-4">
-		    <div class="btn-toolbar mb-2 mb-md-0">
-			<ul class="mr-2 text-muted">
-			    <li><i class="fas fa-clock"></i> Published: {{ .PublishDate.Format "January 2, 2006" }}</li>
-			    {{ if ne .PublishDate .Lastmod }}
-			    <li>Last modified: {{ .Lastmod.Format "January 2, 2006" }}</li>
+		<div class="btn-toolbar mb-2 mb-md-0">
+		    <small class="mr-2 text-muted">
+			<p>
+			    <i class="fas fa-clock"></i> Published:
+			    {{- if .PublishDate.IsZero -}}
+			    <time datetime="{{ $.Date.Format "2006-01-02T15:04:05-07:00" }}">{{ $.Date.Format "2 Jan, 2006" }}</time>
+			    {{ else }}
+			    <time datetime="{{ .PublishDate.Format "2006-01-02T15:04:05-07:00" }}">{{ .PublishDate.Format "January 2, 2006" }}</time>
 			    {{ end }}
-			</ul>
-		    </div>
+			</p>
+			{{- if ne (.PublishDate.Format "2006-01-02") (.Lastmod.Format "2006-01-02") -}}
+			<p>
+			    <i class="fas fa-edit"></i> Last modified: <time datetime="{{ .Lastmod.Format "2006-01-02T15:04:05-07:00" }}">{{ .Lastmod.Format "January 2, 2006" }}</time>
+			</p>
+			{{- end -}}
+		    </small>
 		</div>
 		{{ end }}
 	    </div>

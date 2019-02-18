@@ -10,6 +10,7 @@ theme = 'simpleit-hugo-theme'
 
 # Build robots.txt file
 enableRobotsTXT = true
+enableGitInfo = true #makes .Lastmod (on Page) to be fetched from Git
 
 # syntax highlighting
 pygmentsCodeFences = true
