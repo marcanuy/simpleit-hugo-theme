@@ -41,22 +41,45 @@ section/"subsection" its own articles and nested sections.
 Features:
 
 - mobile-first design
-- two main layouts: single page and lists
-- Automatic TOCs in separate sidebar from content
-- Hugo internal templates (Open Graph, Twitter Cards, Disqus, Google
-  Analytics)
-- Google Adsense:
-  - Page level
-  - Automatic ads
-- Optional [Buy me a coffee](https://buymeacoffee.com) button in articles
-- tree content structure of arbitrary depth supported
-- third-party apps
-  - Bootstrap 4
-  - Fontawesome 5
-- Choose Share Buttons type
-  - static generated with https://sharingbuttons.io/ (fast, minimal footprint)
-  - each site javascript share buttons (Twitter and Facebook
-    with counter)
+- two main layouts: 
+  - single page 
+	- Automatic TOCs based in content headers placed in sidebar
+    - Choose Share Buttons type
+      - static buttons optimized for loading speed
+	  - generated with https://sharingbuttons.io/ (fast, minimal footprint)
+	- Commenting system
+		- Disqus
+  - directory/category lists
+- SEO
+  - Hugo internal templates
+	- Open Graph
+		- `{{- template "_internal/opengraph.html" . -}}`
+    - Schema metatags
+		- `{{- template "_internal/schema.html" . -}}`
+		- When an article is updated, it automatically generates
+          `dateModified` *itemprop* and shows the Last Updated info in
+          the article. It obtains the data from the **git** repo.
+    - Twitter Cards
+	  - `{{- template "_internal/twitter_cards.html" . -}}`
+  - produces
+	- minified HTML
+	- SASS compiled in one *CSS* file
+	- One *javascript* file
+- Analytics
+  - Google Analytics
+  - Bing
+- Monetization:
+  - Google Adsense:
+	- Page level
+    - Automatic ads just setting up config key
+  - Optional [Buy me a coffee](https://buymeacoffee.com) button in articles
+- Content in tree directory structure of arbitrary depth supported
+  - nested directories, each directory having its own articles and
+    possible other directories
+- Third-party apps
+  - Twitter Bootstrap 4
+  - Icons: Fontawesome 5
+
 
 ## Nested subcategories
 
