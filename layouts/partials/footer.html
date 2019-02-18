@@ -1,28 +1,28 @@
 <footer class="container-fluid site-footer py-3">
     <div class="container">
-	<div class="row justify-content-between align-items-center">
-	    <div class="col-5-sm">
-		<h2 class="footer-heading text-muted">{{ .Site.Title }}</h2>
-		<ul class="footer-nav px-0">
-		    <li>
-			<i class="fa fa-keyboard-o" aria-hidden="true"></i>Coded by <a href="{{.Site.Params.author.website}}" rel="author">{{.Site.Params.author.name}}</a>
-		    </li>
-		    {{- with .Site.Params.author.twitter -}}
-		    <li>
-			<i class="fab fa-twitter"></i> <a class="a-social a-tw" href="https://twitter.com/{{.}}" target="_blank"> @{{.}}</a>
-		    </li>
-		    {{ end }}
+	<p class="text-muted border-bottom">
+	    {{ .Description | plainify }}
+	</p>
 
-		    <li>
-			<i class="fa fa-user" aria-hidden="true"></i> <a href="{{ .Site.BaseURL }}about">About</a>
-		    </li>
-		</ul>
-	    </div>
-	    <div class="col-5-sm">
-		<div class="text-muted">
-		    <p>{{ .Description }}</p>
-		</div>
-	    </div>
+	<div class="text-center justify-content-between align-items-center">
+	    <h2 class="footer-heading text-muted">{{ .Site.Title }}</h2>
+	    {{- with .Site.Params.description -}}
+	    <div class="text-muted">{{.}}</div>
+	    {{- end -}}
+	    <ul class="footer-nav px-0">
+		<li>
+		    <i class="fa fa-keyboard-o" aria-hidden="true"></i>Coded by <a href="{{.Site.Params.author.website}}" rel="author">{{.Site.Params.author.name}}</a>
+		</li>
+		{{- with .Site.Params.author.twitter -}}
+		<li>
+		    <i class="fab fa-twitter"></i> <a class="a-social a-tw" href="https://twitter.com/{{.}}" target="_blank"> @{{.}}</a>
+		</li>
+		{{ end }}
+
+		<li>
+		    <i class="fa fa-user" aria-hidden="true"></i> <a href="{{ .Site.BaseURL }}about">About</a>
+		</li>
+	    </ul>
 	</div>
     </div>
 </footer>
