@@ -224,3 +224,11 @@ blockquote{
 .a-social {
     padding-right: 5px;
 }
+
+/*
+  Fix Problem:  
+ <a href="">//someurl.com/a-really-really-really-really-really-really-really-really-really-long-url</a>
+*/
+a {
+    word-wrap: break-word;
+}
