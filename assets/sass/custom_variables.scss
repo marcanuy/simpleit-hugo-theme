@@ -10,11 +10,13 @@ $enable-shadows:            true;
 $enable-gradients:          true;
 
 $font-family-serif: Lucida Bright, Lucida Fax, Palatino, "Palatino Linotype", Palladio, "URW Palladio", serif;
-$font-family-base:            $font-family-serif !default;
+$font-family-base:            $font-family-serif;
 
-$font-size-base:              1.2rem !default; // Assumes the browser default, typically `16px`
+$font-size-base:              1.1rem;
 $font-size-lg:                ($font-size-base * 1.4);
 $font-size-sm:                ($font-size-base * .9);
 
 $gray-100: #f8f9fa; // same as bootstrap to use it in breadcrumb bg
 $breadcrumb-bg: $gray-100;
+
+$enable-responsive-font-sizes: true;
