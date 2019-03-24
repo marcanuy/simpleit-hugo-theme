@@ -65,6 +65,11 @@ Features:
 	- minified HTML
 	- SASS compiled in one *CSS* file
 	- One *javascript* file
+  - Add alternate page version in *<head>* meta as specified in [Tell
+    Google about localized versions of your
+    page](https://support.google.com/webmasters/answer/189077?hl=en)
+    like:
+		- `<link rel="alternate" hreflang="lang_code" href="url_of_page" />`
 - Analytics
   - Google Analytics
   - Bing
