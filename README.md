@@ -84,7 +84,8 @@ Features:
 - Third-party apps
   - Twitter Bootstrap 4
   - Icons: Fontawesome 5
-
+- Author box for each article.
+  - Can be hidden with frontmatter: `hide_author: true`
 
 ## Nested subcategories
 

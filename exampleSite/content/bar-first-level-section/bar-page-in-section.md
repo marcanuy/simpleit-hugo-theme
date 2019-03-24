@@ -12,11 +12,16 @@ resources:
     original: #"https://commons.wikimedia.org/wiki/File:Victor_Hugo_by_%C3%89tienne_Carjat_1876_-_full.jpg"
 tags:
 - example-tag
+hide_author: true
 ---
 
 ## Overview
 
-I am an article at `/content/bar-first-level-section/bar-page-in-section.md`.
+I am an article at
+`/content/bar-first-level-section/bar-page-in-section.md`.
+
+Author box not being shown as `hide_author` key in front matter is set
+to `true`.
 
 ## Lorem ipsum dolor sit amet
 
