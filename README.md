@@ -18,6 +18,7 @@ section/"subsection" its own articles and nested sections.
     - [Adding posts without images](#adding-posts-without-images)
     - [Adding posts with images](#adding-posts-with-images)
     - [Adding images used in many posts](#adding-images-used-in-many-posts)
+    - [Adding pages in multiple languages](#adding-pages-in-multiple-languages)
 - [Installation](#installation)
     - [As a git submodule](#as-a-git-submodule)
     - [If you don't have Hugo with git](#if-you-dont-have-hugo-with-git)
@@ -65,7 +66,7 @@ Features:
 	- minified HTML
 	- SASS compiled in one *CSS* file
 	- One *javascript* file
-  - Add alternate page version in *<head>* meta as specified in [Tell
+  - **Multilingual**: Each page specifies other languages versions in *<head>* meta as specified in [Tell
     Google about localized versions of your
     page](https://support.google.com/webmasters/answer/189077?hl=en)
     like:
@@ -247,6 +248,39 @@ it directly referring them with full path `/img/....`.
 For example, for `my_image.png` at `/assets/img/`
  then it can be used in multiple posts:
 `<img class="img-fluid" alt="example image" src="/img/my_image.png" />`.
+
+## Adding pages in multiple languages
+
+To add a new language, just specify it in the `[languages]` section of
+`config.toml` and create a subdirectory in `/content` as specified at
+[Translation by content directory
+](https://gohugo.io/content-management/multilingual/#translation-by-content-directory).
+
+Then for each page or section:
+
+Set [translationKey](https://gohugo.io/content-management/multilingual/#bypassing-default-linking) for `_index` and *pages* and their slug as
+directory or filename. I use the slug of the section/page I am
+translating as the translation key, for example for
+`/content/en/foo/_index.md`:
+   
+   - EN: `/content/en/foo/`
+   
+         ----
+		 translationKey = "foo"
+		 ----
+   
+   - ES: `/content/es/foo-slug-in-spanish/`
+
+         ----
+		 translationKey = "foo"
+		 ----
+
+Same process for pages.
+  
+Then each level of the hierarchy will have its corresponding page in
+the other language, and *subdirectories* will also be translated.
+
+
 
 # Installation
 
