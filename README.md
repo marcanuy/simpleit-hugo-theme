@@ -93,14 +93,35 @@ The nested subcategories (aka.:sections/nested sections) get the same
 URLs as the directory structure, for example, the following
 directory/files would be available at these URLs:
 
-| Directory  | URL |
-| ------------- | ------------- |
-| /content/_index.md | https://marcanuy.github.io/simpleit-hugo-theme/ |
-| /content/foo-first-level-section/_index.md | https://marcanuy.github.io/simpleit-hugo-theme/foo-first-level-section/ |
-| /content/foo-first-level-section/foo-second-level/_index.md | https://marcanuy.github.io/simpleit-hugo-theme/foo-first-level-section/foo-second-level/ |
-| /content/foo-first-level-section/foo-second-level/page-at-foo-second-level.md | https://marcanuy.github.io/simpleit-hugo-theme/foo-first-level-section/foo-second-level/page-at-foo-second-level |
-| /content/foo-first-level-section/foo-second-level/foo-third-level/_index.md | https://marcanuy.github.io/simpleit-hugo-theme/foo-first-level-section/foo-second-level/foo-third-level/ |
-| /content/a-root-level-article.md | https://marcanuy.github.io/simpleit-hugo-theme/a-root-level-article |
+~~~
+PATH                                            URL
+
+exampleSite/content/
+|-- en
+|   |-- _index.md                               /
+|   |-- a-root-level-article.md                 /a-root-level-article/
+|   |-- about.md                                /about/
+|   |-- bar-first-level-section                 /bar-first-level-section/
+|   |   `-- bar-page-in-section.md              /bar-first-level-section/bar-page-in-section/
+|   |-- baz-first-level-section                 
+|   |   `-- _index.md                           /baz-first-level-section/
+|   `-- foo-first-level-section                 
+|       |-- _index.md                           /foo-first-level-section/
+|       |-- foo-second-level
+|       |   |-- _index.md                       /foo-first-level-section/foo-second-level/
+|       |   |-- foo-third-level
+|       |   |   |-- _index.md                   /foo-first-level-section/foo-second-level/foo-third-level/
+|       |   |   `-- page-at-foo-third-level.md  /foo-first-level-section/foo-second-level/foo-third-level/page-at-foo-third-level/
+|       |   `-- page-at-foo-second-level.md     /foo-first-level-section/foo-second-level/page-at-foo-second-level/
+|       `-- page-at-section-level.md            /foo-first-level-section/page-at-section-level/
+`-- es
+    |-- _index.md                               /es/
+    `-- foo-seccion-primer-nivel
+        |-- _index.md                           /es/foo-section-primer-nivel
+        `-- foo-segundo-nivel                   
+            |-- _index.md                       /es/foo-section-primer-nivel/foo-segundo-nivel
+            `-- pagina-en-segundo-nivel.md      /es/foo-section-primer-nivel/foo-segundo-nivel/pagina-en-segundo-nivel/
+~~~
 
 # Adding content
 
@@ -110,7 +131,7 @@ $ hugo new <sections>/<article>.md
 
 There are two types of Posts, with and without images. The cleanest
 way to have them is to create a directory for those posts that have
-images, and put all the post's images in that directory.
+images, and put all post's images in that directory.
 
 ## Adding posts without images
 
@@ -229,8 +250,6 @@ For example, for `my_image.png` at `/assets/img/`
 
 # Installation
 
-Two options:
-
 ## As a git submodule
 
 	$ git submodule add -f https://github.com/marcanuy/simpleit-hugo-theme themes/simpleit-hugo-theme
@@ -248,7 +267,6 @@ After installing the theme, if you added it as a `git submodule`, you
 can update it with:
 
     git submodule update --remote --merge
-
 
 # Run locally
 
