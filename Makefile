@@ -32,10 +32,14 @@ serve: clean build-fontawesome build-bootstrap
 	$(HUGO) server --source=exampleSite --themesDir=../..
 	rm -fr resources/
 	mv exampleSite/resources/ .
+serve-github-docs: clean build-fontawesome build-bootstrap
+	$(HUGO) server --source=exampleSite --themesDir=../.. --config=../config-github-docs.toml
+	rm -fr resources/
+	mv exampleSite/resources/ .
 
 ######################
-generate-githubpages:
-	rm -fr docs && HUGO_ENV=production $(HUGO) --baseURL https://marcanuy.github.io/simpleit-hugo-theme/ --source=exampleSite --themesDir=../.. --config ../config-github-docs.toml && mv exampleSite/public docs && touch docs/.nojekyll
+generate-githubpages: build
+	rm -fr docs && HUGO_ENV=production $(HUGO) --source=exampleSite --themesDir=../.. --config=../config-github-docs.toml && mv exampleSite/public docs && touch docs/.nojekyll
 clean:
 	find . -name "*~" -exec rm {} -v \;
 	find . -name "*#" -exec rm {} -v \;
