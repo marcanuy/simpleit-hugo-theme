@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bar-first-level-sections on SimpleIT Hugo theme demo website</title>
-    <link>http://example.org/bar-first-level-section/</link>
+    <link>https://marcanuy.github.io/simpleit-hugo-theme/bar-first-level-section/</link>
     <description>Recent content in Bar-first-level-sections on SimpleIT Hugo theme demo website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 06 Jul 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://example.org/bar-first-level-section/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://marcanuy.github.io/simpleit-hugo-theme/bar-first-level-section/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Bar page in section</title>
-      <link>http://example.org/bar-first-level-section/bar-page-in-section/</link>
+      <link>https://marcanuy.github.io/simpleit-hugo-theme/bar-first-level-section/bar-page-in-section/</link>
       <pubDate>Fri, 06 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/bar-first-level-section/bar-page-in-section/</guid>
+      <guid>https://marcanuy.github.io/simpleit-hugo-theme/bar-first-level-section/bar-page-in-section/</guid>
       <description>Overview I am an article at /content/bar-first-level-section/bar-page-in-section.md.
 Author box not being shown as hide_author key in front matter is set to true.
 Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet, eu eos vitae deseruisse eloquentiam. Ex his nemore dolorem incorrupte, vide omnis facete pro an, cum te summo simul. Vel id mucius veritus voluptatum, pro ei nonumy qualisque repudiandae. Mea ex aeque vitae aliquando, choro tempor doming ne sit, mei augue postea imperdiet ex.</description>

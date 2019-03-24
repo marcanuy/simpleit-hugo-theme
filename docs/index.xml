@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>SimpleIT Hugo theme demo website</title>
+    <title>SimpleIT Theme on SimpleIT Hugo theme demo website</title>
     <link>https://marcanuy.github.io/simpleit-hugo-theme/</link>
-    <description>Recent content on SimpleIT Hugo theme demo website</description>
+    <description>Recent content in SimpleIT Theme on SimpleIT Hugo theme demo website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 24 Mar 2019 09:50:50 -0300</lastBuildDate>
     
 	<atom:link href="https://marcanuy.github.io/simpleit-hugo-theme/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>A root level article</title>
-      <link>https://marcanuy.github.io/simpleit-hugo-theme/en/a-root-level-article/</link>
+      <link>https://marcanuy.github.io/simpleit-hugo-theme/a-root-level-article/</link>
       <pubDate>Mon, 06 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://marcanuy.github.io/simpleit-hugo-theme/en/a-root-level-article/</guid>
+      <guid>https://marcanuy.github.io/simpleit-hugo-theme/a-root-level-article/</guid>
       <description>Overview I am an article at /content/a-root-article.md.
 Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet, eu eos vitae deseruisse eloquentiam. Ex his nemore dolorem incorrupte, vide omnis facete pro an, cum te summo simul. Vel id mucius veritus voluptatum, pro ei nonumy qualisque repudiandae. Mea ex aeque vitae aliquando, choro tempor doming ne sit, mei augue postea imperdiet ex. Eum debet causae euismod at.
 Possit commune erroribus id duo, has perpetua gubergren at.</description>
@@ -24,20 +24,20 @@ Possit commune erroribus id duo, has perpetua gubergren at.</description>
     
     <item>
       <title>About page at root level</title>
-      <link>https://marcanuy.github.io/simpleit-hugo-theme/en/about/</link>
+      <link>https://marcanuy.github.io/simpleit-hugo-theme/about/</link>
       <pubDate>Mon, 06 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://marcanuy.github.io/simpleit-hugo-theme/en/about/</guid>
+      <guid>https://marcanuy.github.io/simpleit-hugo-theme/about/</guid>
       <description>Overview I am an article at /content/about.md.
 Pages at root level aren&amp;rsquo;t displayed in the homepage, they should be directly linked to like this one.</description>
     </item>
     
     <item>
       <title>Page at nested section level</title>
-      <link>https://marcanuy.github.io/simpleit-hugo-theme/en/foo-first-level-section/foo-second-level/page-at-foo-second-level/</link>
+      <link>https://marcanuy.github.io/simpleit-hugo-theme/foo-first-level-section/foo-second-level/page-at-foo-second-level/</link>
       <pubDate>Mon, 06 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://marcanuy.github.io/simpleit-hugo-theme/en/foo-first-level-section/foo-second-level/page-at-foo-second-level/</guid>
+      <guid>https://marcanuy.github.io/simpleit-hugo-theme/foo-first-level-section/foo-second-level/page-at-foo-second-level/</guid>
       <description>Overview I am an article at /content/foo-first-level-section/foo-second-level/page-at-second-level.md.
 Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet, eu eos vitae deseruisse eloquentiam. Ex his nemore dolorem incorrupte, vide omnis facete pro an, cum te summo simul. Vel id mucius veritus voluptatum, pro ei nonumy qualisque repudiandae. Mea ex aeque vitae aliquando, choro tempor doming ne sit, mei augue postea imperdiet ex. Eum debet causae euismod at.
 Possit commune erroribus id duo, has perpetua gubergren at.</description>
@@ -45,10 +45,10 @@ Possit commune erroribus id duo, has perpetua gubergren at.</description>
     
     <item>
       <title>Page at nested section third level</title>
-      <link>https://marcanuy.github.io/simpleit-hugo-theme/en/foo-first-level-section/foo-second-level/foo-third-level/page-at-foo-third-level/</link>
+      <link>https://marcanuy.github.io/simpleit-hugo-theme/foo-first-level-section/foo-second-level/foo-third-level/page-at-foo-third-level/</link>
       <pubDate>Mon, 06 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://marcanuy.github.io/simpleit-hugo-theme/en/foo-first-level-section/foo-second-level/foo-third-level/page-at-foo-third-level/</guid>
+      <guid>https://marcanuy.github.io/simpleit-hugo-theme/foo-first-level-section/foo-second-level/foo-third-level/page-at-foo-third-level/</guid>
       <description>Overview I am an article at /content/foo-first-level-section/foo-second-level/foo-third-level/page-at-foo-third-level.md.
 Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet, eu eos vitae deseruisse eloquentiam. Ex his nemore dolorem incorrupte, vide omnis facete pro an, cum te summo simul. Vel id mucius veritus voluptatum, pro ei nonumy qualisque repudiandae. Mea ex aeque vitae aliquando, choro tempor doming ne sit, mei augue postea imperdiet ex. Eum debet causae euismod at.
 Possit commune erroribus id duo, has perpetua gubergren at.</description>
@@ -56,32 +56,21 @@ Possit commune erroribus id duo, has perpetua gubergren at.</description>
     
     <item>
       <title>Page at section level</title>
-      <link>https://marcanuy.github.io/simpleit-hugo-theme/en/foo-first-level-section/page-at-section-level/</link>
+      <link>https://marcanuy.github.io/simpleit-hugo-theme/foo-first-level-section/page-at-section-level/</link>
       <pubDate>Mon, 06 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://marcanuy.github.io/simpleit-hugo-theme/en/foo-first-level-section/page-at-section-level/</guid>
+      <guid>https://marcanuy.github.io/simpleit-hugo-theme/foo-first-level-section/page-at-section-level/</guid>
       <description>Overview I am an article at /content/foo-first-level-section/page-at-section-level.md.
 Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet, eu eos vitae deseruisse eloquentiam. Ex his nemore dolorem incorrupte, vide omnis facete pro an, cum te summo simul. Vel id mucius veritus voluptatum, pro ei nonumy qualisque repudiandae. Mea ex aeque vitae aliquando, choro tempor doming ne sit, mei augue postea imperdiet ex. Eum debet causae euismod at.
 Possit commune erroribus id duo, has perpetua gubergren at.</description>
     </item>
     
     <item>
-      <title>Pagina en segundo nivel anidado</title>
-      <link>https://marcanuy.github.io/simpleit-hugo-theme/es/foo-seccion-primer-nivel/foo-segundo-nivel/pagina-en-segundo-nivel/</link>
-      <pubDate>Mon, 06 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://marcanuy.github.io/simpleit-hugo-theme/es/foo-seccion-primer-nivel/foo-segundo-nivel/pagina-en-segundo-nivel/</guid>
-      <description>Overview I am an article at /content/foo-first-level-section/foo-second-level/page-at-second-level.md.
-Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet, eu eos vitae deseruisse eloquentiam. Ex his nemore dolorem incorrupte, vide omnis facete pro an, cum te summo simul. Vel id mucius veritus voluptatum, pro ei nonumy qualisque repudiandae. Mea ex aeque vitae aliquando, choro tempor doming ne sit, mei augue postea imperdiet ex. Eum debet causae euismod at.
-Possit commune erroribus id duo, has perpetua gubergren at.</description>
-    </item>
-    
-    <item>
       <title>Bar page in section</title>
-      <link>https://marcanuy.github.io/simpleit-hugo-theme/en/bar-first-level-section/bar-page-in-section/</link>
+      <link>https://marcanuy.github.io/simpleit-hugo-theme/bar-first-level-section/bar-page-in-section/</link>
       <pubDate>Fri, 06 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://marcanuy.github.io/simpleit-hugo-theme/en/bar-first-level-section/bar-page-in-section/</guid>
+      <guid>https://marcanuy.github.io/simpleit-hugo-theme/bar-first-level-section/bar-page-in-section/</guid>
       <description>Overview I am an article at /content/bar-first-level-section/bar-page-in-section.md.
 Author box not being shown as hide_author key in front matter is set to true.
 Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet, eu eos vitae deseruisse eloquentiam. Ex his nemore dolorem incorrupte, vide omnis facete pro an, cum te summo simul. Vel id mucius veritus voluptatum, pro ei nonumy qualisque repudiandae. Mea ex aeque vitae aliquando, choro tempor doming ne sit, mei augue postea imperdiet ex.</description>

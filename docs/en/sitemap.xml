@@ -3,140 +3,140 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/a-root-level-article/</loc>
+    <loc>https://marcanuy.github.io/simpleit-hugo-theme/a-root-level-article/</loc>
     <lastmod>2019-03-24T09:50:50-03:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/about/</loc>
+    <loc>https://marcanuy.github.io/simpleit-hugo-theme/about/</loc>
     <lastmod>2019-03-24T09:50:50-03:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/foo-first-level-section/foo-second-level/page-at-foo-second-level/</loc>
+    <loc>https://marcanuy.github.io/simpleit-hugo-theme/foo-first-level-section/foo-second-level/page-at-foo-second-level/</loc>
     <lastmod>2019-03-24T09:50:50-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://example.org/es/foo-seccion-primer-nivel/foo-segundo-nivel/pagina-en-segundo-nivel/"
+                href="https://marcanuy.github.io/simpleit-hugo-theme/es/foo-seccion-primer-nivel/foo-segundo-nivel/pagina-en-segundo-nivel/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/foo-first-level-section/foo-second-level/page-at-foo-second-level/"
+                href="https://marcanuy.github.io/simpleit-hugo-theme/foo-first-level-section/foo-second-level/page-at-foo-second-level/"
                 />
   </url>
   
   <url>
-    <loc>http://example.org/foo-first-level-section/foo-second-level/foo-third-level/page-at-foo-third-level/</loc>
+    <loc>https://marcanuy.github.io/simpleit-hugo-theme/foo-first-level-section/foo-second-level/foo-third-level/page-at-foo-third-level/</loc>
     <lastmod>2019-03-24T09:50:50-03:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/foo-first-level-section/page-at-section-level/</loc>
+    <loc>https://marcanuy.github.io/simpleit-hugo-theme/foo-first-level-section/page-at-section-level/</loc>
     <lastmod>2019-03-24T09:50:50-03:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/bar-first-level-section/bar-page-in-section/</loc>
+    <loc>https://marcanuy.github.io/simpleit-hugo-theme/bar-first-level-section/bar-page-in-section/</loc>
     <lastmod>2019-03-24T09:50:50-03:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/bar-first-level-section/</loc>
+    <loc>https://marcanuy.github.io/simpleit-hugo-theme/bar-first-level-section/</loc>
     <lastmod>2019-03-24T09:50:50-03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/baz-first-level-section/</loc>
+    <loc>https://marcanuy.github.io/simpleit-hugo-theme/baz-first-level-section/</loc>
     <lastmod>2019-03-24T09:50:50-03:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://marcanuy.github.io/simpleit-hugo-theme/categories/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://example.org/es/categories/"
+                href="https://marcanuy.github.io/simpleit-hugo-theme/es/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/categories/"
+                href="https://marcanuy.github.io/simpleit-hugo-theme/categories/"
                 />
   </url>
   
   <url>
-    <loc>http://example.org/tags/example-tag/</loc>
+    <loc>https://marcanuy.github.io/simpleit-hugo-theme/tags/example-tag/</loc>
     <lastmod>2019-03-24T09:50:50-03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/foo-first-level-section/</loc>
+    <loc>https://marcanuy.github.io/simpleit-hugo-theme/foo-first-level-section/</loc>
     <lastmod>2019-03-24T09:50:50-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://example.org/es/foo-seccion-primer-nivel/"
+                href="https://marcanuy.github.io/simpleit-hugo-theme/es/foo-seccion-primer-nivel/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/foo-first-level-section/"
+                href="https://marcanuy.github.io/simpleit-hugo-theme/foo-first-level-section/"
                 />
   </url>
   
   <url>
-    <loc>http://example.org/foo-first-level-section/foo-second-level/</loc>
+    <loc>https://marcanuy.github.io/simpleit-hugo-theme/foo-first-level-section/foo-second-level/</loc>
     <lastmod>2019-03-24T09:50:50-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://example.org/es/foo-seccion-primer-nivel/foo-segundo-nivel/"
+                href="https://marcanuy.github.io/simpleit-hugo-theme/es/foo-seccion-primer-nivel/foo-segundo-nivel/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/foo-first-level-section/foo-second-level/"
+                href="https://marcanuy.github.io/simpleit-hugo-theme/foo-first-level-section/foo-second-level/"
                 />
   </url>
   
   <url>
-    <loc>http://example.org/foo-first-level-section/foo-second-level/foo-third-level/</loc>
+    <loc>https://marcanuy.github.io/simpleit-hugo-theme/foo-first-level-section/foo-second-level/foo-third-level/</loc>
     <lastmod>2019-03-24T09:50:50-03:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/</loc>
+    <loc>https://marcanuy.github.io/simpleit-hugo-theme/</loc>
     <lastmod>2019-03-24T09:50:50-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://example.org/es/"
+                href="https://marcanuy.github.io/simpleit-hugo-theme/es/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/"
+                href="https://marcanuy.github.io/simpleit-hugo-theme/"
                 />
   </url>
   
   <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://marcanuy.github.io/simpleit-hugo-theme/tags/</loc>
     <lastmod>2019-03-24T09:50:50-03:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://example.org/es/tags/"
+                href="https://marcanuy.github.io/simpleit-hugo-theme/es/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/tags/"
+                href="https://marcanuy.github.io/simpleit-hugo-theme/tags/"
                 />
   </url>
   
