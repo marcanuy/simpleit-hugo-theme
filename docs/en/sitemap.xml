@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://example.org/a-root-level-article/</loc>
+    <lastmod>2019-03-24T09:50:50-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/about/</loc>
+    <lastmod>2019-03-24T09:50:50-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/foo-first-level-section/foo-second-level/page-at-foo-second-level/</loc>
+    <lastmod>2019-03-24T09:50:50-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://example.org/es/foo-seccion-primer-nivel/foo-segundo-nivel/pagina-en-segundo-nivel/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/foo-first-level-section/foo-second-level/page-at-foo-second-level/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/foo-first-level-section/foo-second-level/foo-third-level/page-at-foo-third-level/</loc>
+    <lastmod>2019-03-24T09:50:50-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/foo-first-level-section/page-at-section-level/</loc>
+    <lastmod>2019-03-24T09:50:50-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/bar-first-level-section/bar-page-in-section/</loc>
+    <lastmod>2019-03-24T09:50:50-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/bar-first-level-section/</loc>
+    <lastmod>2019-03-24T09:50:50-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/baz-first-level-section/</loc>
+    <lastmod>2019-03-24T09:50:50-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://example.org/es/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/example-tag/</loc>
+    <lastmod>2019-03-24T09:50:50-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/foo-first-level-section/</loc>
+    <lastmod>2019-03-24T09:50:50-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://example.org/es/foo-seccion-primer-nivel/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/foo-first-level-section/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/foo-first-level-section/foo-second-level/</loc>
+    <lastmod>2019-03-24T09:50:50-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://example.org/es/foo-seccion-primer-nivel/foo-segundo-nivel/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/foo-first-level-section/foo-second-level/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/foo-first-level-section/foo-second-level/foo-third-level/</loc>
+    <lastmod>2019-03-24T09:50:50-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/</loc>
+    <lastmod>2019-03-24T09:50:50-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://example.org/es/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/</loc>
+    <lastmod>2019-03-24T09:50:50-03:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://example.org/es/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/tags/"
+                />
+  </url>
+  
+</urlset>

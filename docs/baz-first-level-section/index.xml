@@ -2,12 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Baz first level section on SimpleIT Hugo theme demo website</title>
-    <link>https://marcanuy.github.io/simpleit-hugo-theme/baz-first-level-section/</link>
+    <link>http://example.org/baz-first-level-section/</link>
     <description>Recent content in Baz first level section on SimpleIT Hugo theme demo website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Sun, 24 Mar 2019 09:50:50 -0300</lastBuildDate>
     
-	<atom:link href="https://marcanuy.github.io/simpleit-hugo-theme/baz-first-level-section/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://example.org/baz-first-level-section/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

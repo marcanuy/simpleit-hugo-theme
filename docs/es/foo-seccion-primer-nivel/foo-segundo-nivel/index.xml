@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Foo seccion segundo nivel on SimpleIT Hugo theme demo website</title>
+    <link>https://marcanuy.github.io/simpleit-hugo-theme/es/foo-seccion-primer-nivel/foo-segundo-nivel/</link>
+    <description>Recent content in Foo seccion segundo nivel on SimpleIT Hugo theme demo website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 06 Aug 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://marcanuy.github.io/simpleit-hugo-theme/es/foo-seccion-primer-nivel/foo-segundo-nivel/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Pagina en segundo nivel anidado</title>
+      <link>https://marcanuy.github.io/simpleit-hugo-theme/es/foo-seccion-primer-nivel/foo-segundo-nivel/pagina-en-segundo-nivel/</link>
+      <pubDate>Mon, 06 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://marcanuy.github.io/simpleit-hugo-theme/es/foo-seccion-primer-nivel/foo-segundo-nivel/pagina-en-segundo-nivel/</guid>
+      <description>Overview I am an article at /content/foo-first-level-section/foo-second-level/page-at-second-level.md.
+Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet, eu eos vitae deseruisse eloquentiam. Ex his nemore dolorem incorrupte, vide omnis facete pro an, cum te summo simul. Vel id mucius veritus voluptatum, pro ei nonumy qualisque repudiandae. Mea ex aeque vitae aliquando, choro tempor doming ne sit, mei augue postea imperdiet ex. Eum debet causae euismod at.
+Possit commune erroribus id duo, has perpetua gubergren at.</description>
+    </item>
+    
+  </channel>
+</rss>
