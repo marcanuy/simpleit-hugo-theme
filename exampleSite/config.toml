@@ -16,6 +16,17 @@ enableGitInfo = true #makes .Lastmod (on Page) to be fetched from Git
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 
+[languages]
+  [languages.en]
+    contentDir = "content/en"
+    languageName = "English"
+    weight = 10
+  [languages.es]
+    title = "Sitio web de ejemplo usando SimpleIT Hugo"
+    contentDir = "content/es"
+    languageName = "Español"
+    weight = 20
+
 # Theme variables
 #
 [params]
