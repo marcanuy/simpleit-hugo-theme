@@ -1,5 +1,8 @@
 {{ if .IsTranslated }}
+{{/* Add this page alternate version */}}
+<link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}" />
 {{ range .Translations }}
+{{/* Add this page translations */}}
 <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}" />
 {{ end}}
 {{ end }}
