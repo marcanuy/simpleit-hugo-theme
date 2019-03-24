@@ -1,8 +1,8 @@
 ---
 title: Foo seccion segundo nivel
 subtitle: ""
-description: The second level description
+description: Descripción del segundo nivel
 translationKey: foo-second-level
 ---
 
-I am the index page of `content/foo-first-level-section/foo-second-level` directory.
+Soy la página en el directorio `content/es/foo-seccion-primer-nivel/foo-segundo-nivel`.

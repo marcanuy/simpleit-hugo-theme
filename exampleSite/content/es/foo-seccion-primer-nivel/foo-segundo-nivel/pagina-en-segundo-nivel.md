@@ -19,50 +19,15 @@ I am an article at `/content/foo-first-level-section/foo-second-level/page-at-se
 
 ## Lorem ipsum dolor sit amet
 
-Lorem ipsum dolor sit amet, eu eos vitae deseruisse eloquentiam. Ex his nemore dolorem incorrupte, vide omnis facete pro an, cum te summo simul. Vel id mucius veritus voluptatum, pro ei nonumy qualisque repudiandae. Mea ex aeque vitae aliquando, choro tempor doming ne sit, mei augue postea imperdiet ex. Eum debet causae euismod at.
+Lorem ipsum dolor sit amet, eu eos vitae deseruisse eloquentiam. 
 
-Possit commune erroribus id duo, has perpetua gubergren at. Mel te eligendi reprehendunt, labitur aliquid erroribus ea per, no quo alii gloriatur. Pri delenit atomorum tincidunt an, intellegam disputationi vix at. Quo wisi propriae ex, has error equidem blandit an. Vix id dolores appetere. Vel choro nonumy quaerendum id.
+Ex his nemore dolorem incorrupte, vide omnis facete pro an, cum te
+summo simul.
 
 
-This is a solution supporting nested sections assigning custom slugs
-for each lang, no matter their depth. For this I use:
+Possit commune erroribus id duo, has perpetua gubergren at. 
 
-- "Translation by content directory"
-- "Frontmatter's translationKey"
+Mel te eligendi reprehendunt, labitur aliquid erroribus ea per, no quo
+alii gloriatur. 
 
-1. Set languages in config and define a directory for each one of them:
-
-~~~
-[languages]
-  [languages.en]
-    contentDir = "content/en"
-    languageName = "English"
-    weight = 10
-  [languages.es]
-    title = "Sitio ..."
-    contentDir = "content/es"
-    languageName = "Español"
-    weight = 20
-~~~
-
-2. Set translationKey for `_index` and *pages* and their slug as
-   directory or filename. I use the slug of the
-   section/page I am translating as the translation key, for example for
-   `/content/en/foo/_index.md`:
-   
-   - EN: `/content/en/foo/`
-   
-         ----
-		 translationKey = "foo"
-		 ----
-   
-   - ES: `/content/es/foo-slug-in-spanish/`
-
-         ----
-		 translationKey = "foo"
-		 ----
-
-  Same process for pages.
-  
-Then each level of the hierarchy will have its corresponding page in
-the other language, and *subdirectories* will also be translated.
+Pri delenit atomorum tincidunt an, intellegam disputationi vix at. 
