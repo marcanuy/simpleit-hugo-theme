@@ -6,7 +6,7 @@
     <description>Recent content in Foo seccion segundo nivel on Sitio web de ejemplo usando SimpleIT Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 24 Mar 2019 09:50:50 -0300</lastBuildDate>
+    <lastBuildDate>Sun, 24 Mar 2019 13:19:07 -0300</lastBuildDate>
     
 	<atom:link href="https://marcanuy.github.io/simpleit-hugo-theme/es/foo-seccion-primer-nivel/foo-segundo-nivel/index.xml" rel="self" type="application/rss+xml" />
     
@@ -18,8 +18,11 @@
       
       <guid>https://marcanuy.github.io/simpleit-hugo-theme/es/foo-seccion-primer-nivel/foo-segundo-nivel/pagina-en-segundo-nivel/</guid>
       <description>Overview I am an article at /content/foo-first-level-section/foo-second-level/page-at-second-level.md.
-Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet, eu eos vitae deseruisse eloquentiam. Ex his nemore dolorem incorrupte, vide omnis facete pro an, cum te summo simul. Vel id mucius veritus voluptatum, pro ei nonumy qualisque repudiandae. Mea ex aeque vitae aliquando, choro tempor doming ne sit, mei augue postea imperdiet ex. Eum debet causae euismod at.
-Possit commune erroribus id duo, has perpetua gubergren at.</description>
+Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet, eu eos vitae deseruisse eloquentiam.
+Ex his nemore dolorem incorrupte, vide omnis facete pro an, cum te summo simul.
+Possit commune erroribus id duo, has perpetua gubergren at.
+Mel te eligendi reprehendunt, labitur aliquid erroribus ea per, no quo alii gloriatur.
+Pri delenit atomorum tincidunt an, intellegam disputationi vix at.</description>
     </item>
     
   </channel>
