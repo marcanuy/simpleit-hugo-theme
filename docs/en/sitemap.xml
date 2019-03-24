@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://marcanuy.github.io/simpleit-hugo-theme/a-root-level-article/</loc>
-    <lastmod>2019-03-24T09:50:50-03:00</lastmod>
+    <lastmod>2019-03-24T13:22:03-03:00</lastmod>
   </url>
   
   <url>
@@ -14,7 +14,7 @@
   
   <url>
     <loc>https://marcanuy.github.io/simpleit-hugo-theme/foo-first-level-section/foo-second-level/page-at-foo-second-level/</loc>
-    <lastmod>2019-03-24T09:50:50-03:00</lastmod>
+    <lastmod>2019-03-24T13:22:03-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -29,22 +29,22 @@
   
   <url>
     <loc>https://marcanuy.github.io/simpleit-hugo-theme/foo-first-level-section/foo-second-level/foo-third-level/page-at-foo-third-level/</loc>
-    <lastmod>2019-03-24T09:50:50-03:00</lastmod>
+    <lastmod>2019-03-24T13:22:03-03:00</lastmod>
   </url>
   
   <url>
     <loc>https://marcanuy.github.io/simpleit-hugo-theme/foo-first-level-section/page-at-section-level/</loc>
-    <lastmod>2019-03-24T09:50:50-03:00</lastmod>
+    <lastmod>2019-03-24T13:22:03-03:00</lastmod>
   </url>
   
   <url>
     <loc>https://marcanuy.github.io/simpleit-hugo-theme/bar-first-level-section/bar-page-in-section/</loc>
-    <lastmod>2019-03-24T09:50:50-03:00</lastmod>
+    <lastmod>2019-03-24T13:22:03-03:00</lastmod>
   </url>
   
   <url>
     <loc>https://marcanuy.github.io/simpleit-hugo-theme/bar-first-level-section/</loc>
-    <lastmod>2019-03-24T09:50:50-03:00</lastmod>
+    <lastmod>2019-03-24T13:22:03-03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -70,7 +70,7 @@
   
   <url>
     <loc>https://marcanuy.github.io/simpleit-hugo-theme/tags/example-tag/</loc>
-    <lastmod>2019-03-24T09:50:50-03:00</lastmod>
+    <lastmod>2019-03-24T13:22:03-03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -126,7 +126,7 @@
   
   <url>
     <loc>https://marcanuy.github.io/simpleit-hugo-theme/tags/</loc>
-    <lastmod>2019-03-24T09:50:50-03:00</lastmod>
+    <lastmod>2019-03-24T13:22:03-03:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
