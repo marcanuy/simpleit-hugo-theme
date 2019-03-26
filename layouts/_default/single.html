@@ -81,9 +81,12 @@
     </div>
 </div>
 
-
-
+{{/* Load mermaid js library only if there is a mermaid block like <div class="mermaid"> */}}
+{{ if (in .RawContent "mermaid")}}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.0.0-rc.8/mermaid.min.js"></script>
+{{ end }}
+
+
 
 {{ end }}
 
