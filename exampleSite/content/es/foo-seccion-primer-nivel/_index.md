@@ -1,8 +1,8 @@
 ---
 title: Foo seccion primer nivel
 subtitle: ""
-description: The first level description
+description: Primer nivel descripción
 translationKey: foo-first-level-section
 ---
 
-I am the index page of `content/foo-first-level-section` directory.
+Soy la página en en el directorio `content/es/foo-seccion-primer-nivel`.

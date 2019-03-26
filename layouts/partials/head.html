@@ -39,7 +39,7 @@
 
 {{ $allstyle := slice $sharebuttons $style | resources.Concat "css/all.css" | minify | fingerprint }}
 
-<link rel="stylesheet" href="{{ $allstyle.RelPermalink }}" integrity="{{ $allstyle.Data.Integrity }}">
+<link rel="stylesheet" href="{{ $allstyle.Permalink }}" integrity="{{ $allstyle.Data.Integrity }}">
 
 {{ partial "google_analytics.html" . }}
 

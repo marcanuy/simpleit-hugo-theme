@@ -1,100 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  <url>
-    <loc>https://marcanuy.github.io/simpleit-hugo-theme/en/a-root-level-article/</loc>
-    <lastmod>2018-08-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://marcanuy.github.io/simpleit-hugo-theme/en/about/</loc>
-    <lastmod>2018-08-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://marcanuy.github.io/simpleit-hugo-theme/en/foo-first-level-section/foo-second-level/page-at-foo-second-level/</loc>
-    <lastmod>2018-08-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://marcanuy.github.io/simpleit-hugo-theme/en/foo-first-level-section/foo-second-level/foo-third-level/page-at-foo-third-level/</loc>
-    <lastmod>2018-08-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://marcanuy.github.io/simpleit-hugo-theme/en/foo-first-level-section/page-at-section-level/</loc>
-    <lastmod>2018-08-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://marcanuy.github.io/simpleit-hugo-theme/es/foo-seccion-primer-nivel/foo-segundo-nivel/pagina-en-segundo-nivel/</loc>
-    <lastmod>2018-08-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://marcanuy.github.io/simpleit-hugo-theme/en/bar-first-level-section/bar-page-in-section/</loc>
-    <lastmod>2018-07-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://marcanuy.github.io/simpleit-hugo-theme/en/baz-first-level-section/</loc>
-  </url>
-  
-  <url>
-    <loc>https://marcanuy.github.io/simpleit-hugo-theme/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://marcanuy.github.io/simpleit-hugo-theme/tags/example-tag/</loc>
-    <lastmod>2018-07-06T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://marcanuy.github.io/simpleit-hugo-theme/en/foo-first-level-section/</loc>
-    <lastmod>2018-08-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://marcanuy.github.io/simpleit-hugo-theme/es/foo-seccion-primer-nivel/</loc>
-  </url>
-  
-  <url>
-    <loc>https://marcanuy.github.io/simpleit-hugo-theme/es/foo-seccion-primer-nivel/foo-segundo-nivel/</loc>
-    <lastmod>2018-08-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://marcanuy.github.io/simpleit-hugo-theme/en/foo-first-level-section/foo-second-level/</loc>
-    <lastmod>2018-08-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://marcanuy.github.io/simpleit-hugo-theme/en/foo-first-level-section/foo-second-level/foo-third-level/</loc>
-    <lastmod>2018-08-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://marcanuy.github.io/simpleit-hugo-theme/</loc>
-    <lastmod>2018-08-06T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://marcanuy.github.io/simpleit-hugo-theme/en/</loc>
-    <lastmod>2018-08-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://marcanuy.github.io/simpleit-hugo-theme/tags/</loc>
-    <lastmod>2018-07-06T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://marcanuy.github.io/simpleit-hugo-theme/es/</loc>
-  </url>
-  
-</urlset>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	
+	<sitemap>
+	   	<loc>https://marcanuy.github.io/simpleit-hugo-theme/en/sitemap.xml</loc>
+		
+	   	<lastmod>2019-03-24T13:22:03-03:00</lastmod>
+		
+	</sitemap>
+	
+	<sitemap>
+	   	<loc>https://marcanuy.github.io/simpleit-hugo-theme/es/sitemap.xml</loc>
+		
+	   	<lastmod>2019-03-24T13:19:07-03:00</lastmod>
+		
+	</sitemap>
+	
+</sitemapindex>

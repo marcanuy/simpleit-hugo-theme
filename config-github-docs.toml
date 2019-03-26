@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://marcanuy.github.io/simpleit-hugo-theme/"
 languageCode = "en-us"
 title = "SimpleIT Hugo theme demo website"
 theme = 'simpleit-hugo-theme'
@@ -8,10 +8,22 @@ canonifyURLs = true
 
 # Build robots.txt file
 enableRobotsTXT = true
+enableGitInfo = true #makes .Lastmod (on Page) to be fetched from Git
 
 # syntax highlighting
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
+
+[languages]
+  [languages.en]
+    contentDir = "content/en"
+    languageName = "English"
+    weight = 10
+  [languages.es]
+    title = "Sitio web de ejemplo usando SimpleIT Hugo"
+    contentDir = "content/es"
+    languageName = "Español"
+    weight = 20
 
 # Theme variables
 #
@@ -24,6 +36,22 @@ pygmentsCodefencesGuessSyntax = true
 
   # Format dates with Go's time formatting
   date_format = "Mon Jan 02, 2006"
+
+  # Your copyright notice - appears in site footer.
+  # To display a copyright symbol, type `&copy;`.
+  copyright = "<small>&copy; 2018</small>"
+
+  # used in page level ads in head
+  #google_adsense_id = "ca-pub-1234567890"
+  
+  # verification string for Google Webmaster Tools
+  #google_verify_meta = "1234567890"
+
+  # verification string for Bing Webmaster Tools
+  #bing_verify_meta = "1234567890"
+
+  # verification string for Yandex Webmaster Tools
+  #yandex_verify_meta = "1234568790"
 
   # site handler
   twitter = "simpleitrocks"

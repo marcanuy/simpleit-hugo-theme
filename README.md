@@ -408,6 +408,13 @@ Hugo websites using this theme:
 
 Add your own website here with a Pull Request!
 
+# Reference
+
+- Github repo: https://github.com/marcanuy/simpleit-hugo-theme.git
+- Page at Hugo themes site: https://themes.gohugo.io/simpleit-hugo-theme/
+- Hierarchical content demo: https://marcanuy.github.io/simpleit-hugo-theme/
+- Flat demo: https://themes.gohugo.io/theme/simpleit-hugo-theme/
+
 # License
 
 This theme is released under the MIT License. For more information read the [License](//github.com/marcanuy/simpleit-hugo-theme/blob/master/LICENSE).

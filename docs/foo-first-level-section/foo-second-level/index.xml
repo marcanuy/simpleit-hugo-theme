@@ -2,24 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Foo second level nested section on SimpleIT Hugo theme demo website</title>
-    <link>http://example.org/foo-first-level-section/foo-second-level/</link>
+    <link>https://marcanuy.github.io/simpleit-hugo-theme/foo-first-level-section/foo-second-level/</link>
     <description>Recent content in Foo second level nested section on SimpleIT Hugo theme demo website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 24 Mar 2019 09:50:50 -0300</lastBuildDate>
     
-	<atom:link href="http://example.org/foo-first-level-section/foo-second-level/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://marcanuy.github.io/simpleit-hugo-theme/foo-first-level-section/foo-second-level/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Page at nested section level</title>
-      <link>http://example.org/foo-first-level-section/foo-second-level/page-at-foo-second-level/</link>
+      <link>https://marcanuy.github.io/simpleit-hugo-theme/foo-first-level-section/foo-second-level/page-at-foo-second-level/</link>
       <pubDate>Mon, 06 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/foo-first-level-section/foo-second-level/page-at-foo-second-level/</guid>
+      <guid>https://marcanuy.github.io/simpleit-hugo-theme/foo-first-level-section/foo-second-level/page-at-foo-second-level/</guid>
       <description>Overview I am an article at /content/foo-first-level-section/foo-second-level/page-at-second-level.md.
-Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet, eu eos vitae deseruisse eloquentiam. Ex his nemore dolorem incorrupte, vide omnis facete pro an, cum te summo simul. Vel id mucius veritus voluptatum, pro ei nonumy qualisque repudiandae. Mea ex aeque vitae aliquando, choro tempor doming ne sit, mei augue postea imperdiet ex. Eum debet causae euismod at.
-Possit commune erroribus id duo, has perpetua gubergren at.</description>
+Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet, eu eos vitae deseruisse eloquentiam.
+Ex his nemore dolorem incorrupte, vide omnis facete pro an, cum te summo simul.
+An veri sensibus An veri sensibus hendrerit vim, duo omnis expetenda at, error numquam expetendis eum ea. No cum simul iriure sensibus, consequuntur conclusionemque cum an.
+Admodum rationibus percipitur eos an.</description>
     </item>
     
   </channel>
