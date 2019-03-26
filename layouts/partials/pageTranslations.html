@@ -1,4 +1,5 @@
 {{/* Show alternative page translations, fallback to site available languages */}}
+{{ $current := . }}
 <div class="text-muted">
     {{ i18n "translations" }}
     
@@ -8,8 +9,12 @@
         <a hreflang="{{.Language}}" href="{{ .Permalink }}">{{.Language.LanguageName}}</a>
     {{ end}}
     {{ else }}
-    {{ range $.Site.Home.AllTranslations }}
+	{{ range $.Site.Home.AllTranslations }}
+	{{ if eq .Language $current.Language }}
+	<strong>{{.Language.LanguageName}}</strong>
+	{{ else }}
 	<a hreflang="{{.Language}}" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+	{{ end }}
     {{ end }}
     {{ end }}
 
