@@ -66,7 +66,9 @@
 		{{ end }}
 	    </div>
 
+	    {{ partial "single/precontent.html" . }}
 	    {{.Content}}
+	    {{ partial "single/postcontent.html" . }}
 
 	    {{ partial "author.html" . }}
 	    <div class="comments">
