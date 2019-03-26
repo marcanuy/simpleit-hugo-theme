@@ -43,13 +43,13 @@
 		{{ with .Params.Subtitle }}
 		<p class="text-muted">{{.}}</p>
 		{{ end }}
-		{{ if .PublishDate }}
+		{{ if (or (not .PublishDate.IsZero) (not .Date.IsZero)) }}
 		<div class="m-0">
 		    <small class="text-muted">
 			<i class="fas fa-clock"></i> Published:
-			{{- if .PublishDate.IsZero -}}
+			{{- if not .Date.IsZero -}}
 			<time datetime="{{ $.Date.Format "2006-01-02T15:04:05-07:00" }}">{{ $.Date.Format "2 Jan, 2006" }}</time>
-			{{ else }}
+			{{ else if (not .PublishDate.IsZero) }}
 			<time datetime="{{ .PublishDate.Format "2006-01-02T15:04:05-07:00" }}">{{ .PublishDate.Format "January 2, 2006" }}</time>
 			{{ end }}
 			
