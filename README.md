@@ -66,11 +66,14 @@ Features:
 	- minified HTML
 	- SASS compiled in one *CSS* file
 	- One *javascript* file
-  - **Multilingual**: Each page specifies other languages versions in *<head>* meta as specified in [Tell
-    Google about localized versions of your
-    page](https://support.google.com/webmasters/answer/189077?hl=en)
-    like:
-		- `<link rel="alternate" hreflang="lang_code" href="url_of_page" />`
+  - **Multilingual**: 
+	- In `head`: Each page specifies other languages versions in *<head>* meta as specified in [Tell
+		Google about localized versions of your
+		page](https://support.google.com/webmasters/answer/189077?hl=en)
+		like:
+			- `<link rel="alternate" hreflang="lang_code" href="url_of_page" />`
+	- In `footer`: Show alternative page translations, falling back to
+      site available languages if a specific page doesn't have translation
 - Analytics
   - Google Analytics
   - Bing

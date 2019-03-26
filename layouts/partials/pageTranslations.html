@@ -1,0 +1,16 @@
+{{/* Show alternative page translations, fallback to site available languages */}}
+<div class="text-muted">
+    {{ i18n "translations" }}
+    
+    {{ if .IsTranslated }}
+    <strong>{{.Language.LanguageName}}</strong>
+    {{ range .Translations }}
+        <a hreflang="{{.Language}}" href="{{ .Permalink }}">{{.Language.LanguageName}}</a>
+    {{ end}}
+    {{ else }}
+    {{ range $.Site.Home.AllTranslations }}
+	<a hreflang="{{.Language}}" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+    {{ end }}
+    {{ end }}
+
+</div>
