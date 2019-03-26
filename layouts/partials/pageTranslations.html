@@ -1,4 +1,6 @@
 {{/* Show alternative page translations, fallback to site available languages */}}
+{{ $numberOfLanguages := len $.Site.Home.AllTranslations }}
+{{ if (or .IsTranslated (gt $numberOfLanguages 1)) }}
 {{ $current := . }}
 <div class="text-muted">
     {{ i18n "translations" }}
@@ -17,5 +19,5 @@
 	{{ end }}
     {{ end }}
     {{ end }}
-
 </div>
+{{ end }}
