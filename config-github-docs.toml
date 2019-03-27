@@ -26,7 +26,7 @@ pygmentsCodefencesGuessSyntax = true
     contentDir = "content/es"
     languageName = "Español"
     weight = 20
-    bio = "Entusiaste OSS."
+    bio = "Entusiasta OSS."
     page_about_me_relurl = "/es/acerca/"
 
 # Theme variables
