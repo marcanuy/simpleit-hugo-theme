@@ -415,6 +415,7 @@ Did you found a bug or got an idea for a new feature? Feel free to use the [issu
 Hugo websites using this theme:
 
 - https://simpleit.rocks
+- https://therunningsecret.com
 
 Add your own website here with a Pull Request!
 
