@@ -21,11 +21,13 @@ pygmentsCodefencesGuessSyntax = true
     contentDir = "content/en"
     languageName = "English"
     weight = 10
+    page_about_me_relurl = "/about/"
   [languages.es]
     title = "Sitio web de ejemplo usando SimpleIT Hugo"
     contentDir = "content/es"
     languageName = "Español"
     weight = 20
+    page_about_me_relurl = "/es/acerca/"
 
 # Theme variables
 #
