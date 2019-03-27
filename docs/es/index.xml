@@ -25,5 +25,15 @@ Mel te eligendi reprehendunt, labitur aliquid erroribus ea per, no quo alii glor
 Pri delenit atomorum tincidunt an, intellegam disputationi vix at.</description>
     </item>
     
+    <item>
+      <title>Página acerca de en la raiz</title>
+      <link>https://marcanuy.github.io/simpleit-hugo-theme/es/acerca/</link>
+      <pubDate>Mon, 06 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://marcanuy.github.io/simpleit-hugo-theme/es/acerca/</guid>
+      <description>Descripción Soy una página en /content/es/about.md.
+La traducción está linkeada automáticamente a la versión en inglés: /about/ ya que tiene el mismo nombre que el archivo /content/about.md.</description>
+    </item>
+    
   </channel>
 </rss>
