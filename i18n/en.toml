@@ -1,5 +1,38 @@
 [about]
 other = "About"
 
+[articles]
+other = "Articles:"
+
+[buy_me_a_coffee]
+other = "Buy me a coffee"
+
+[helpful]
+other = "Helpful?"
+
+[image]
+other = "Image:"
+
+[last-modified]
+other = "Last modified:"
+
+[latest-articles]
+other = "Latest articles"
+
+[license]
+other = "License:"
+
+[published]
+other = "Published:"
+
+[share]
+other = "Share?"
+
+[subcategories]
+other = "Subcategories"
+
 [translations]
 other = "Translations"
+
+[twitter-follow-us]
+other = "Follow us!"

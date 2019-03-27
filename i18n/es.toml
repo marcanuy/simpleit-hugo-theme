@@ -1,5 +1,38 @@
 [about]
 other = "Acerca"
 
+[articles]
+other = "Artículos:"
+
+[buy_me_a_coffee]
+other = "Cómprame un café"
+
+[helpful]
+other = "Útil?"
+
+[image]
+other = "Imagen:"
+
+[last-modified]
+other = "Última modificación:"
+
+[latest-articles]
+other = "Últimos artículos"
+
+[license]
+other = "Licencia:"
+
+[published]
+other = "Publicado:"
+
+[share]
+other = "Compartir?"
+
+[subcategories]
+other = "Subcategorías"
+
 [translations]
 other = "Traducciones"
+
+[twitter-follow-us]
+other = "Síguenos!"

@@ -1,12 +1,12 @@
 <div>
     <ul>
 	{{ if ne .IsHome true }}
-	<h4>Articles:</h4>
+	<h4>{{ i18n "articles "}}</h4>
 	{{ template "current-section_pages" . }}
 	{{end}}
 	<hr>
 	{{ if gt (len .Sections) 0}}
-	<h4>Subcategories</h4>
+	<h4>{{ i18n "subcategories" }}</h4>
 	{{ template "section-tree-nav" . }}
 	{{end}}
     </ul>
