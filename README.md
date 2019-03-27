@@ -89,6 +89,7 @@ Features:
   - Twitter Bootstrap 4
   - Icons: Fontawesome 5
 - Author box for each article.
+  - Only shown in pages if `bio` is set at `[params.author]` in configuration.
   - Can be hidden with frontmatter: `hide_author: true`
 
 ## Nested subcategories
