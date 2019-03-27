@@ -91,6 +91,12 @@ Features:
 - Author box for each article.
   - Only shown in pages if `bio` is set at `[params.author]` in configuration.
   - Can be hidden with frontmatter: `hide_author: true`
+- About me page in footer if `page_about_me_relurl` set in
+  configuration for each language.
+
+       [languages]
+         [languages.en]
+         page_about_me_relurl = "/about/"
 
 ## Nested subcategories
 

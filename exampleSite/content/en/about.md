@@ -14,7 +14,7 @@ resources:
 
 ## Overview
 
-I am an article at `/content/about.md`.
+I am an article at `/content/en/about.md`.
 
 Pages at root level aren't displayed in the homepage, they should be
 directly linked to like this one.

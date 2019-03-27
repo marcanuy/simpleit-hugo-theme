@@ -19,9 +19,11 @@
 		</li>
 		{{ end }}
 
+		{{ with .Site.Params.page_about_me_relurl }}
 		<li>
-		    <i class="fa fa-user" aria-hidden="true"></i> <a href="{{ .Site.BaseURL }}about">About</a>
+		    <i class="fa fa-user" aria-hidden="true"></i> <a href="{{ . | absURL }}">{{ i18n "about" }}</a>
 		</li>
+		{{ end }}
 	    </ul>
 
 	    {{ partial "pageTranslations.html" . }}
