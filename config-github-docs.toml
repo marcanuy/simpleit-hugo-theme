@@ -19,11 +19,15 @@ pygmentsCodefencesGuessSyntax = true
     contentDir = "content/en"
     languageName = "English"
     weight = 10
+    bio = "OSS enthusiast."
+    page_about_me_relurl = "/about/"
   [languages.es]
     title = "Sitio web de ejemplo usando SimpleIT Hugo"
     contentDir = "content/es"
     languageName = "Español"
     weight = 20
+    bio = "Entusiaste OSS."
+    page_about_me_relurl = "/es/acerca/"
 
 # Theme variables
 #
@@ -54,7 +58,7 @@ pygmentsCodefencesGuessSyntax = true
   #yandex_verify_meta = "1234568790"
 
   # site handler
-  twitter = "simpleitrocks"
+  twitter = "marcanuy"
 
   # Buymeacoffe id (https://buymeacoffee.com)
   buymeacoffe = "marcanuy"
@@ -70,5 +74,5 @@ pygmentsCodefencesGuessSyntax = true
   github = "marcanuy"
   gitlab = "marcanuy"
   stackexchange = "1193189"
-  bio = "OSS enthusiast."
+
 
