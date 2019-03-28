@@ -6,8 +6,6 @@ Responsive Hugo theme displaying articles by directory.
 Homepage displays the full directory tree structure and each
 section/"subsection" its own articles and nested sections.
 
-[![GitHub release](https://img.shields.io/github/release/marcanuy/simpleit-hugo-theme.svg?style=for-the-badge)](https://github.com/marcanuy/simpleit-hugo-theme/releases/latest)
-[![GitHub Release Date](https://img.shields.io/github/release-date/marcanuy/simpleit-hugo-theme.svg?style=for-the-badge)](https://github.com/marcanuy/simpleit-hugo-theme/releases)
 [![license](https://img.shields.io/github/license/marcanuy/simpleit-hugo-theme.svg?style=for-the-badge)](https://github.com/marcanuy/simpleit-hugo-theme/blob/master/LICENSE)
 
 
