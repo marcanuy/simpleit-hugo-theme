@@ -11,7 +11,7 @@
 	    {{- end -}}
 	    <ul class="footer-nav px-0">
 		<li>
-		    <i class="fa fa-keyboard-o" aria-hidden="true"></i>Coded by <a href="{{.Site.Params.author.website}}" rel="author">{{.Site.Params.author.name}}</a>
+		    <i class="fa fa-keyboard-o" aria-hidden="true"></i>{{ i18n "made-by" }} <a href="{{.Site.Params.author.website}}" rel="author">{{.Site.Params.author.name}}</a>
 		</li>
 		{{- with .Site.Params.author.twitter -}}
 		<li>

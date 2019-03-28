@@ -22,6 +22,9 @@ other = "Latest articles"
 [license]
 other = "License:"
 
+[made-by]
+other = "Made by"
+
 [published]
 other = "Published:"
 
