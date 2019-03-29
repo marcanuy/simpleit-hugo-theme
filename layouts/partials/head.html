@@ -21,9 +21,7 @@
 {{ partial "adsense_page_level_ads.html" . }}
 {{ end }}
 
-{{- with .Description -}}
-<meta name="description" content="{{.}}">
-{{ end }}
+<meta property="description" content='{{ block "description" . }}{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}{{ end }}' />
 
 {{- with .Site.Params.author.name -}}
 <meta name="author" content="{{.}}">
