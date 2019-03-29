@@ -29,7 +29,9 @@
 <meta name="author" content="{{.}}">
 {{ end }}
 
-<title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
+{{/* NOTE: the page title (if exists), and Site's title */}}
+<title>{{ block "title" . }}{{ with .Title }}{{ . }} | {{ end }}{{ .Site.Title }}{{ end }}</title>
+
 <link rel="canonical" href="{{ .Permalink }}">
 
 <!-- BS4+Fontawesome5 free+Custom Styles -->
