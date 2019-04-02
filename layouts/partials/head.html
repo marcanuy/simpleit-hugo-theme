@@ -28,7 +28,7 @@
 {{ end }}
 
 {{/* NOTE: the page title (if exists), and Site's title */}}
-<title>{{ block "title" . }}{{ with .Title }}{{ . }} | {{ end }}{{ .Site.Title }}{{ end }}</title>
+<title>{{ block "title" . }}{{ if (and .Title (ne .Title .Site.Title))}}{{ .Title }} | {{ end }}{{ .Site.Title }}{{ end }}</title>
 
 <link rel="canonical" href="{{ .Permalink }}">
 
