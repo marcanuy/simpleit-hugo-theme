@@ -1,6 +1,6 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "SimpleIT Hugo theme demo website"
+title = "SimpleIT Demo website"
 theme = 'simpleit-hugo-theme'
 #disqusShortname = "simpleit-hugo-theme"
 #googleAnalytics = "UA-64047109-4"
@@ -24,7 +24,7 @@ pygmentsCodefencesGuessSyntax = true
     bio = "OSS enthusiast."
     page_about_me_relurl = "/about/"
   [languages.es]
-    title = "Sitio web de ejemplo usando SimpleIT Hugo"
+    title = "Demo SimpleIT Hugo"
     contentDir = "content/es"
     languageName = "Español"
     weight = 20
