@@ -54,6 +54,8 @@ Features:
 	- Commenting system
 		- Disqus
   - directory/category lists
+	- If `/static/img/cover.jpg` exists, it is added as the background
+      of the homepage header section
 - SEO
   - Hugo internal templates
 	- Open Graph

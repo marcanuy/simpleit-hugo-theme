@@ -10,6 +10,9 @@ other = "Buy me a coffee"
 [helpful]
 other = "Helpful?"
 
+[home-leadtext]
+other = '<p><strong>This is an example website</strong> to show how theme works <i class="fas fa-briefcase" aria-hidden="true"></i>.</p>'
+
 [image]
 other = "Image:"
 

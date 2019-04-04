@@ -10,6 +10,9 @@ other = "Cómprame un café"
 [helpful]
 other = "Útil?"
 
+[home-leadtext]
+other = '<p><strong>Este es un sitio de ejemplo</strong> para mostrar cómo funciona este tema <i class="fas fa-briefcase" aria-hidden="true"></i>.</p>'
+
 [image]
 other = "Imagen:"
 
