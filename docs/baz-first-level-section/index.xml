@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Baz first level section on SimpleIT Hugo theme demo website</title>
+    <title>Baz first level section on SimpleIT Demo Website</title>
     <link>https://marcanuy.github.io/simpleit-hugo-theme/baz-first-level-section/</link>
-    <description>Recent content in Baz first level section on SimpleIT Hugo theme demo website</description>
+    <description>Recent content in Baz first level section on SimpleIT Demo Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 24 Mar 2019 09:50:50 -0300</lastBuildDate>

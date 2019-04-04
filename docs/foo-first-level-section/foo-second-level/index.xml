@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Foo second level nested section on SimpleIT Hugo theme demo website</title>
+    <title>Foo second level nested section on SimpleIT Demo Website</title>
     <link>https://marcanuy.github.io/simpleit-hugo-theme/foo-first-level-section/foo-second-level/</link>
-    <description>Recent content in Foo second level nested section on SimpleIT Hugo theme demo website</description>
+    <description>Recent content in Foo second level nested section on SimpleIT Demo Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 24 Mar 2019 09:50:50 -0300</lastBuildDate>

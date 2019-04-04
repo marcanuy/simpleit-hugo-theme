@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Example Tag on SimpleIT Hugo theme demo website</title>
+    <title>Example Tag on SimpleIT Demo Website</title>
     <link>https://marcanuy.github.io/simpleit-hugo-theme/tags/example-tag/</link>
-    <description>Recent content in Example Tag on SimpleIT Hugo theme demo website</description>
+    <description>Recent content in Example Tag on SimpleIT Demo Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 06 Jul 2018 00:00:00 +0000</lastBuildDate>
