@@ -1,5 +1,6 @@
 ---
 title: "Page at nested section level"
+linktitle: "Nested link Title"
 date: "2018-08-06"
 subtitle: 'I am the subtitle'
 description: 'I am the description used at head meta and footer description'
