@@ -3,11 +3,13 @@
 <div class="container">
     <div class="row">
         <main role="main" aria-role="main" class="col mt-3">
-	    <div class="">
-		{{.Content}}
-	    </div>
 	    <div>
 		<h2>{{.Title}}</h2>
+
+		{{ partial "section/precontent.html" . }}
+		{{.Content}}
+		{{ partial "section/postcontent.html" . }}
+
 		{{ partial "sections-tree.html" . }}
 	    </div>
 	</main>
