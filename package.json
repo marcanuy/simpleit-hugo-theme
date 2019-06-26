@@ -24,11 +24,11 @@
   },
   "homepage": "https://github.com/marcanuy/simpleit-hugo-theme#readme",
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.7.2",
-    "autoprefixer": "^9.4.8",
+    "@fortawesome/fontawesome-free": "^5.9.0",
+    "autoprefixer": "^9.6.0",
     "bootstrap": "^4.3.1",
-    "jquery": "^3.3.1",
-    "popper.js": "^1.14.7",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0",
     "postcss-cli": "^6.1.2"
   },
   "devDependencies": {}
