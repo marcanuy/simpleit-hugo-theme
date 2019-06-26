@@ -24,7 +24,7 @@
   
   <url>
     <loc>https://marcanuy.github.io/simpleit-hugo-theme/foo-first-level-section/foo-second-level/page-at-foo-second-level/</loc>
-    <lastmod>2019-03-24T13:22:03-03:00</lastmod>
+    <lastmod>2019-04-16T23:04:24-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -59,6 +59,28 @@
   </url>
   
   <url>
+    <loc>https://marcanuy.github.io/simpleit-hugo-theme/tags/</loc>
+    <lastmod>2019-03-24T13:22:03-03:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://marcanuy.github.io/simpleit-hugo-theme/es/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://marcanuy.github.io/simpleit-hugo-theme/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://marcanuy.github.io/simpleit-hugo-theme/tags/example-tag/</loc>
+    <lastmod>2019-03-24T13:22:03-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://marcanuy.github.io/simpleit-hugo-theme/baz-first-level-section/</loc>
     <lastmod>2019-03-24T09:50:50-03:00</lastmod>
   </url>
@@ -76,12 +98,6 @@
                 hreflang="en"
                 href="https://marcanuy.github.io/simpleit-hugo-theme/categories/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://marcanuy.github.io/simpleit-hugo-theme/tags/example-tag/</loc>
-    <lastmod>2019-03-24T13:22:03-03:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -131,22 +147,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://marcanuy.github.io/simpleit-hugo-theme/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://marcanuy.github.io/simpleit-hugo-theme/tags/</loc>
-    <lastmod>2019-03-24T13:22:03-03:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://marcanuy.github.io/simpleit-hugo-theme/es/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://marcanuy.github.io/simpleit-hugo-theme/tags/"
                 />
   </url>
   
