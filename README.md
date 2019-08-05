@@ -35,6 +35,7 @@ section/"subsection" its own articles and nested sections.
 - [Screenshots](#screenshots)
 - [Contributing](#contributing)
 - [Websites using theme](#websites-using-theme)
+- [Reference](#reference)
 - [License](#license)
 
 <!-- markdown-toc end -->
@@ -347,11 +348,26 @@ canonifyURLs = true
 # Customizing styles for your website
 
 If you want to change some styling to fit your own website needs, copy
-the following files to your website root path and edit them:
+the following files to your website instance and edit them:
 
-- `assets/sass/custom_variables.scss`: customize variables used by Bootstrap.
+- `assets/sass/custom_variables.scss`: customize variables used by
+  Bootstrap.
 - `assets/sass/styles.scss`: your main website styles with all
   Bootstrap variables avaiable.
+
+Or include them with a SCSS include:
+
+- for `custom_variables.scss`:
+
+~~~ sass
+@import "../../themes/simpleit-hugo-theme/assets/sass/custom_variables.scss";
+~~~
+
+and for `styles.scss`
+
+~~~ sass
+@import "../../themes/simpleit-hugo-theme/assets/sass/styles.scss";
+~~~
 
 # Notes for developers
 
