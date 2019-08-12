@@ -71,6 +71,12 @@
 	    <div class="comments">
 		{{ template "_internal/disqus.html" . }}
 	    </div>
+
+	    <hr>
+	    <div class="top-border p-3 mb-2 bg-light">
+		{{ partial "sections-tree.html" .CurrentSection }}
+	    </div>
+	    
 	    {{ partial "breadcrumb.html" . }}
 
 	    <div class="mt-3">
