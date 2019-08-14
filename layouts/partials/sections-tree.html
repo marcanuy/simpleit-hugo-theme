@@ -1,6 +1,6 @@
 <div>
     <ul>
-	{{ if ne .IsHome true }}
+	{{ if (and (ne .IsHome true) (gt (len .RegularPages) 0)) }}
 	<h4>{{ i18n "articles" }}</h4>
 	{{ template "current-section_pages" . }}
 	{{end}}
@@ -24,7 +24,7 @@
 
 {{ define "current-section_pages" }}
 <ul>
-    {{ range .Pages }}
+    {{ range .RegularPages }}
     <li><a href="{{ .Permalink}}"> {{ .LinkTitle }} </a></li>
     {{ end }}
 </ul>
