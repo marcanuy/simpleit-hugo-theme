@@ -103,6 +103,7 @@ Features:
        [languages]
          [languages.en]
          page_about_me_relurl = "/about/"
+- Previous/Next article buttons when displaying a single article.
 
 ## Nested subcategories
 

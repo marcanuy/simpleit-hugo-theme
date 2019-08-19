@@ -72,7 +72,8 @@
 		{{ template "_internal/disqus.html" . }}
 	    </div>
 
-	    <hr>
+	    {{ partial "prevnext_buttons" . }}
+
 	    <div class="top-border p-3 mb-2 bg-light">
 		{{ partial "sections-tree.html" .CurrentSection }}
 	    </div>
