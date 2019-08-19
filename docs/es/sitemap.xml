@@ -34,7 +34,6 @@
   
   <url>
     <loc>https://marcanuy.github.io/simpleit-hugo-theme/es/categories/</loc>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -79,7 +78,6 @@
   
   <url>
     <loc>https://marcanuy.github.io/simpleit-hugo-theme/es/tags/</loc>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"

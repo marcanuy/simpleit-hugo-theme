@@ -55,13 +55,16 @@
   <url>
     <loc>https://marcanuy.github.io/simpleit-hugo-theme/bar-first-level-section/</loc>
     <lastmod>2019-03-24T13:22:03-03:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://marcanuy.github.io/simpleit-hugo-theme/tags/example-tag/</loc>
+    <lastmod>2019-03-24T13:22:03-03:00</lastmod>
   </url>
   
   <url>
     <loc>https://marcanuy.github.io/simpleit-hugo-theme/tags/</loc>
     <lastmod>2019-03-24T13:22:03-03:00</lastmod>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -75,19 +78,12 @@
   </url>
   
   <url>
-    <loc>https://marcanuy.github.io/simpleit-hugo-theme/tags/example-tag/</loc>
-    <lastmod>2019-03-24T13:22:03-03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://marcanuy.github.io/simpleit-hugo-theme/baz-first-level-section/</loc>
     <lastmod>2019-03-24T09:50:50-03:00</lastmod>
   </url>
   
   <url>
     <loc>https://marcanuy.github.io/simpleit-hugo-theme/categories/</loc>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
