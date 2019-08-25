@@ -104,6 +104,11 @@ Features:
          [languages.en]
          page_about_me_relurl = "/about/"
 - Previous/Next article buttons when displaying a single article.
+- Generates an `rss+xml` [Atom](https://tools.ietf.org/html/rfc4287)
+   file, an XML-based Web content and metadata syndication format, for
+   each *directory/subdirectory*.
+  - Example for URL: `https://simpleit.rocks/python/django/index.xml"`
+    includes the `link`: `<link href="https://simpleit.rocks/python/django/index.xml" rel="alternate" title="Simple IT 🤘 Rocks" type="application/rss+xml"/>`
 
 ## Nested subcategories
 
