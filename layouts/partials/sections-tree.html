@@ -1,11 +1,11 @@
 <div>
     <ul>
-	{{ if (and (ne .IsHome true) (gt (len .RegularPages) 0)) }}
+	{{ if (and (ne .CurrentSection.IsHome true) (gt (len .CurrentSection.RegularPages) 0)) }}
 	<h4>{{ i18n "articles" }}</h4>
 	{{ template "current-section_pages" . }}
 	{{end}}
 	<hr>
-	{{ if gt (len .Sections) 0}}
+	{{ if gt (len .CurrentSection.Sections) 0}}
 	<h4>{{ i18n "subcategories" }}</h4>
 	{{ template "section-tree-nav" . }}
 	{{end}}
@@ -13,7 +13,7 @@
 </div>
 
 {{ define "section-tree-nav" }}
-{{ range .Sections }}
+{{ range .CurrentSection.Sections }}
 <li><h5><a href="{{.Permalink}}">{{ .LinkTitle }}</a></h5> </li>
 {{ template "current-section_pages" . }} 
 <ul>
@@ -24,8 +24,12 @@
 
 {{ define "current-section_pages" }}
 <ul>
-    {{ range .RegularPages }}
-    <li><a href="{{ .Permalink}}"> {{ .LinkTitle }} </a></li>
+    {{ range .CurrentSection.RegularPages }}
+    {{ if (eq $.Permalink .Permalink) }}
+    <li>{{ .LinkTitle }}</li>
+    {{ else }}
+    <li><a href="{{.Permalink}}">{{ .LinkTitle }}</a></li>
+    {{ end }}
     {{ end }}
 </ul>
 {{ end }}
