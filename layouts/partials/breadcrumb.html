@@ -1,8 +1,20 @@
-{{ $tree_depth := len (split .Path "/") }}
+{{/* Count how deep we are in the tree structure by counting its slashes */}}
+{{ $path_items := (split .Path "/") }}
+
+{{/* If the last item in the path is an `index` in any form, then
+the above item is the proper level, so we add a level to non index paths */}}
+{{ $last_path_item := index $path_items (sub (len $path_items) 1 ) }}
+
+{{if in $last_path_item "index" }}
+{{ $tree_depth := (sub $tree_depth 1) }}
+{{ .Scratch.Set "tree_depth" (len $path_items) }}
+{{else}}
+{{ .Scratch.Set "tree_depth" (add (len $path_items) 1 ) }}
+{{end}}
 
 <nav aria-label="breadcrumb">
     <ol class="breadcrumb border border-secondary" itemprop="breadcrumb">
-	{{ template "breadcrumbnav" (dict "p1" . "p2" . "position" (add $tree_depth 1)) }}
+	{{ template "breadcrumbnav" (dict "p1" . "p2" . "position" (.Scratch.Get "tree_depth")) }}
   </ol>
 </nav>
 
