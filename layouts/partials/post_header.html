@@ -1,0 +1,34 @@
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+    <h1 class="h2">{{.Title}}</h1>
+</div>
+
+{{ with .Page.Resources.GetMatch "cover" }}
+<figure class="figure">
+    <img src="{{.RelPermalink}}" class="figure-img img-fluid rounded" alt="{{.Title}}">
+    <figcaption class="figure-caption text-center"><small>{{ i18n "image" }} {{.Title}} {{ with .Params.license }}<small>({{ i18n "license" }} {{.}})</small>{{end}}</small></figcaption>
+</figure>
+{{ end }}
+
+<div class="text-center">
+    {{ with .Params.Subtitle }}
+    <p class="text-muted">{{.}}</p>
+    {{ end }}
+    {{ if (or (not .PublishDate.IsZero) (not .Date.IsZero)) }}
+    <div class="m-0">
+	<small class="text-muted">
+	    <i class="fas fa-clock"></i> {{ i18n "published" }}
+	    {{ if not .Date.IsZero }}
+	    <time datetime="{{ $.Date.Format "2006-01-02T15:04:05-07:00" }}">{{ $.Date.Format "2 Jan, 2006" }}</time>
+	    {{ else if (not .PublishDate.IsZero) }}
+	    <time datetime="{{ .PublishDate.Format "2006-01-02T15:04:05-07:00" }}">{{ .PublishDate.Format "January 2, 2006" }}</time>
+	    {{ end }}
+	    
+	    {{ if ne (.PublishDate.Format "2006-01-02") (.Lastmod.Format "2006-01-02") }}
+	    <div class="ml-2">
+		<i class="fas fa-edit"></i> {{ i18n "last-modified" }} <time datetime="{{ .Lastmod.Format "2006-01-02T15:04:05-07:00" }}">{{ .Lastmod.Format "January 2, 2006" }}</time>
+	    </div>
+	    {{ end }}
+	</small>
+    </div>
+    {{ end }}
+</div>
