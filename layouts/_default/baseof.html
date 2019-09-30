@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{.Lang}}" itemscope="" itemtype="http://schema.org/WebPage">
+<html lang="{{.Lang}}" itemscope="" itemtype="{{- block "body-schema" . -}}http://schema.org/WebPage{{- end -}}">
     <head>
 	{{- partial "head.html" . -}}
     </head>
