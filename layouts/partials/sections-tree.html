@@ -9,6 +9,11 @@
 	<h4>{{ i18n "subcategories" }}</h4>
 	{{ template "section-tree-nav" . }}
 	{{end}}
+	{{/* Show root level pages at home page after section tree */}}
+	{{ if (and (eq .CurrentSection.IsHome true) (gt (len .CurrentSection.RegularPages) 0)) }}
+	<h4>{{ i18n "articles" }}</h4>
+	{{ template "current-section_pages" . }}
+	{{end}}
     </ul>
 </div>
 
