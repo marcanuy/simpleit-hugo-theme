@@ -12,7 +12,7 @@ the above item is the proper level, so we add a level to non index paths */}}
 {{end}}
 
 <nav aria-label="breadcrumb">
-    <ol class="breadcrumb border border-secondary" itemprop="breadcrumb">
+    <ol class="breadcrumb border border-secondary" itemprop="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">
 	{{ template "breadcrumbnav" (dict "p1" . "p2" . "position" (.Scratch.Get "tree_depth")) }}
   </ol>
 </nav>
