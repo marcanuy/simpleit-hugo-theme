@@ -3,7 +3,7 @@
 {{if (and .Site.Params.bio (and $author (not .Params.hide_author) ))}}
 <footer class="author-footer">
     <div class="media">
-	<span itemprop="locationCreated contentLocation spatialCoverage" itemscope="itemscope" itemtype="https://schema.org/City" style="display:none"><span itemprop="name">{{ $author.country }}</span>
+	<span itemprop="locationCreated" itemscope="itemscope" itemtype="https://schema.org/City" style="display:none"><span itemprop="name">{{ $author.country }}</span>
 	</span>
 	<meta content="{{$author.website}}" property="article:author"/>
 	<meta content="@{{$author.twitter}}" name="twitter:creator"/>
