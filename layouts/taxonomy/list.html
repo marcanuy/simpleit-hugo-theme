@@ -1,0 +1,25 @@
+{{ define "main" }}
+
+<div class="container">
+    <div class="row">
+	<main aria-role="main" class="col mt-5">
+	    <header>
+		<h1>{{.Title}}</h1>
+            </header>	    
+	    <div class="homepage-content mt-5">
+		{{.Content}}
+	    </div>
+	    <ul>
+		{{ range .Pages }}
+		<li>
+		    <a class="title" href="{{ .RelPermalink }}">{{ .Title }}</a>
+		</li>
+		{{ end }}
+	    </ul>
+	</main>
+    </div>
+</div>
+
+{{- partial "footer.html" . -}}
+
+{{ end }}
