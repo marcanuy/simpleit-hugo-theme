@@ -33,17 +33,11 @@
   </url>
   
   <url>
-    <loc>https://marcanuy.github.io/simpleit-hugo-theme/es/categories/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://marcanuy.github.io/simpleit-hugo-theme/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://marcanuy.github.io/simpleit-hugo-theme/es/categories/"
-                />
+    <loc>https://marcanuy.github.io/simpleit-hugo-theme/es/categor%C3%ADas/</loc>
+  </url>
+  
+  <url>
+    <loc>https://marcanuy.github.io/simpleit-hugo-theme/es/etiquetas/</loc>
   </url>
   
   <url>
@@ -73,20 +67,6 @@
                 rel="alternate"
                 hreflang="es"
                 href="https://marcanuy.github.io/simpleit-hugo-theme/es/foo-seccion-primer-nivel/foo-segundo-nivel/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://marcanuy.github.io/simpleit-hugo-theme/es/tags/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://marcanuy.github.io/simpleit-hugo-theme/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://marcanuy.github.io/simpleit-hugo-theme/es/tags/"
                 />
   </url>
   

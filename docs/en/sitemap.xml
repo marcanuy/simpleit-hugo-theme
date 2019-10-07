@@ -65,16 +65,6 @@
   <url>
     <loc>https://marcanuy.github.io/simpleit-hugo-theme/tags/</loc>
     <lastmod>2019-03-24T13:22:03-03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://marcanuy.github.io/simpleit-hugo-theme/es/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://marcanuy.github.io/simpleit-hugo-theme/tags/"
-                />
   </url>
   
   <url>
@@ -84,16 +74,6 @@
   
   <url>
     <loc>https://marcanuy.github.io/simpleit-hugo-theme/categories/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://marcanuy.github.io/simpleit-hugo-theme/es/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://marcanuy.github.io/simpleit-hugo-theme/categories/"
-                />
   </url>
   
   <url>

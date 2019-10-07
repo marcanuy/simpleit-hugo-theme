@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categorías on Demo SimpleIT Hugo</title>
+    <link>https://marcanuy.github.io/simpleit-hugo-theme/es/categor%C3%ADas/</link>
+    <description>Recent content in Categorías on Demo SimpleIT Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://marcanuy.github.io/simpleit-hugo-theme/es/categor%C3%ADas/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>
