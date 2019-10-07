@@ -12,7 +12,7 @@
 	    <ul>
 		{{ range .Pages }}
 		<li>
-		    <a class="title" href="{{ .RelPermalink }}">{{ .Title }}</a>
+		    <a class="title" href="{{ .RelPermalink }}">{{ title .LinkTitle }}</a>
 		</li>
 		{{ end }}
 	    </ul>
