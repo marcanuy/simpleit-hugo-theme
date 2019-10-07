@@ -23,6 +23,10 @@ pygmentsCodefencesGuessSyntax = true
     weight = 10
     bio = "OSS enthusiast."
     page_about_me_relurl = "/about/"
+  [languages.en.taxonomies]
+    category = "categories" # default
+    tag = "tags" # default
+
   [languages.es]
     title = "Demo SimpleIT Hugo"
     contentDir = "content/es"
@@ -30,6 +34,9 @@ pygmentsCodefencesGuessSyntax = true
     weight = 20
     bio = "Entusiasta OSS."
     page_about_me_relurl = "/es/acerca/"
+  [languages.es.taxonomies]
+    category = "categorías" # default
+    tag = "etiquetas" # default
 
 # Theme variables
 #
@@ -60,7 +67,7 @@ pygmentsCodefencesGuessSyntax = true
   #yandex_verify_meta = "1234568790"
 
   # site handler
-  twitter = "simpleitrocks"
+  twitter = "marcanuy"
 
   # Buymeacoffe id (https://buymeacoffee.com)
   # buymeacoffe = marcanuy

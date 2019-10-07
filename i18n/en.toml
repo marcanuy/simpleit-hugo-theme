@@ -37,6 +37,9 @@ other = "Share?"
 [subcategories]
 other = "Subcategories"
 
+[taxonomies]
+other = "Categories"
+
 [translations]
 other = "Translations"
 
