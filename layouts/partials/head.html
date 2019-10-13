@@ -5,6 +5,10 @@
 {{- template "_internal/schema.html" . -}}
 {{- template "_internal/twitter_cards.html" . -}}
 
+{{- with .Params.sameas -}}{{range .}}
+<meta itemprop="sameAs" content="{{ . }}" />
+{{end}}{{end}}
+
 {{- with .Site.Params.google_verify_meta -}}
 <meta name="google-site-verification" content="{{ . }}" />
 {{ end }}

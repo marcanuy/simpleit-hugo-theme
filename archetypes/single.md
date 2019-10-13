@@ -4,6 +4,8 @@ linkTitle: ''
 date: {{ .Date }}
 draft: true
 subtitle: ''
+sameas:
+- https://www.wikidata.org/wiki/example
 description: ''
 images:
 - first-dir/second-dir/victor_hugo.jpg # image used in metadata, OpenGraph and Twitter cards, first 6 images are also used by OpenGraph
