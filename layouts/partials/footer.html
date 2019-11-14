@@ -10,9 +10,11 @@
 	    <div class="text-muted">{{.}}</div>
 	    {{- end -}}
 	    <ul class="footer-nav px-0">
+		{{- with .Site.Params.author.name -}}
 		<li>
-		    <i class="fa fa-keyboard-o" aria-hidden="true"></i>{{ i18n "made-by" }} <a href="{{.Site.Params.author.website}}" rel="author">{{.Site.Params.author.name}}</a>
+		    <i class="fa fa-keyboard-o" aria-hidden="true"></i>{{ i18n "made-by" }} <a href="{{$.Site.Params.author.website}}" rel="author">{{.}}</a>
 		</li>
+		{{ end }}
 		{{- with .Site.Params.author.twitter -}}
 		<li>
 		    <i class="fab fa-twitter"></i> <a class="a-social a-tw" href="https://twitter.com/{{.}}" target="_blank"> @{{.}}</a>
