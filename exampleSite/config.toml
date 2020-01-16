@@ -72,6 +72,9 @@ pygmentsCodefencesGuessSyntax = true
   # Buymeacoffe id (https://buymeacoffee.com)
   # buymeacoffe = marcanuy
 
+  # Ko-fi id (https://ko-fi.com)
+  # kofi = "marcanuy"
+
   [params.author]
   name = "Marcelo Canina"
   country = "Uruguay"

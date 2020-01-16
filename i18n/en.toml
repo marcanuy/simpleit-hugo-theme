@@ -16,6 +16,9 @@ other = '<p><strong>This is an example website</strong> to show how theme works 
 [image]
 other = "Image:"
 
+[kofi]
+other = "Buy Me a Coffee at ko-fi.com"
+
 [last-modified]
 other = "Last modified:"
 

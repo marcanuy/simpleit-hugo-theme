@@ -16,6 +16,9 @@ other = '<p><strong>Este es un sitio de ejemplo</strong> para mostrar cómo func
 [image]
 other = "Imagen:"
 
+[kofi]
+other = "Cómprame un café en ko-fi.com"
+
 [last-modified]
 other = "Última modificación:"
 

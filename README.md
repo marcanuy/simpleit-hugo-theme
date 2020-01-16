@@ -87,7 +87,9 @@ Features:
   - Google Adsense:
 	- Page level
     - Automatic ads just setting up config key
-  - Optional [Buy me a coffee](https://buymeacoffee.com) button in articles
+  - Optional support buttons in articles:
+	- [Buy me a coffee](https://buymeacoffee.com)
+    - [Ko-fi id](https://ko-fi.com)
 - Content in tree directory structure of arbitrary depth supported
   - nested directories, each directory having its own articles and
     possible other directories
