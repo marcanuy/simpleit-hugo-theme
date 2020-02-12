@@ -19,7 +19,7 @@
 
 {{ define "section-tree-nav" }}
 {{ range .CurrentSection.Sections }}
-<li><h5><a href="{{.Permalink}}">{{ .LinkTitle }}</a></h5> </li>
+<li><h5><a href="{{.Permalink}}">{{ .LinkTitle }}</a></h5></li>
 {{ template "current-section_pages" . }} 
 <ul>
     {{ template "section-tree-nav" . }}
@@ -33,7 +33,7 @@
     {{ if (eq $.Permalink .Permalink) }}
     <li>{{ .LinkTitle }}</li>
     {{ else }}
-    <li><a href="{{.Permalink}}">{{ .LinkTitle }}</a></li>
+    <li><a href="{{.Permalink}}">{{ .LinkTitle }}</a><span><small class="mx-1 text-muted">{{.PublishDate.Format "January 2, 2006"}}</small></span></li>
     {{ end }}
     {{ end }}
 </ul>
