@@ -1,5 +1,5 @@
 <ul>
-    {{ range first 3 .RegularPages.ByDate.Reverse  }}
+    {{ range first 3 .Site.RegularPages  }}
     <li>
 	<article>
 	    <!-- this <div> includes the title summary -->
@@ -14,4 +14,5 @@
 	</article>
     </li>
     {{ end }}
+
 </ul>
