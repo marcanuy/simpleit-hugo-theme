@@ -87,4 +87,5 @@ pygmentsCodefencesGuessSyntax = true
   gitlab = "marcanuy"
   stackexchange = "1193189"
 
-
+[markup.goldmark.renderer]
+unsafe= true
