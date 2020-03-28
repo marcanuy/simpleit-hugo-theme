@@ -4,6 +4,8 @@
 	{{- partial "head.html" . -}}
     </head>
     <body>
+	<meta itemprop="url" content="{{.Permalink}}}" />
+
         {{- partial "header.html" . -}}
         {{- block "main" . -}}{{- end -}}
         {{- partial "footer_meta.html" . -}}
