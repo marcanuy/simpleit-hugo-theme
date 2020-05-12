@@ -43,6 +43,10 @@ other = "Subcategorías"
 [taxonomies]
 other = "Categorías"
 
+[tag]
+one = "Tag"
+other = "Tags"
+
 [translations]
 other = "Traducciones"
 

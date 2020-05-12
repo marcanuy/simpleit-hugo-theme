@@ -1,14 +1,8 @@
-{{/*Based in https://gohugo.io/templates/taxonomy-templates/#example-list-tags-in-a-single-page-template*/}}
-{{ $taxo := "tags" }} {{/*Use the plural form here*/}}
-
 <i class="fas fa-tags"></i>
-{{ $taxo := "tags" }} <!-- Use the plural form here -->
-{{ with .Param $taxo }}
-    <strong>Tag{{ if gt (len .) 1 }}s{{ end }}:</strong>
-    {{ range $index, $director := . }}
-        {{- if gt $index 0 }}, {{ end -}}
-        {{ with $.Site.GetPage (printf "/%s/%s" $taxo $director) -}}
-            <a href="{{ .Permalink }}">{{ $director }}</a>
-        {{- end -}}
-    {{- end -}}
+{{$tags_taxonomy := index $.Site.Data.taxonomy_tags $.Site.Language.Lang }}
+{{$tags := $.Page.GetTerms $tags_taxonomy}}
+<strong>{{ T "tag" (len $tags)}}</strong>
+{{ range $i, $tag := $tags }}
+{{if gt $i 0}},{{end}} <a href="{{ $tag.Permalink }}">{{ title $tag.LinkTitle }}</a> 
 {{ end }}
+

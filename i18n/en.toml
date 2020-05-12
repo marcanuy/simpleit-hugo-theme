@@ -40,6 +40,10 @@ other = "Share?"
 [subcategories]
 other = "Subcategories"
 
+[tag]
+one = "Tag"
+other = "Tags"
+
 [taxonomies]
 other = "Categories"
 
