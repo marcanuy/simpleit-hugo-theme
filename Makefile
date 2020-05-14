@@ -7,7 +7,7 @@ ASSETS_SCSS_DIR := assets/sass/vendor/
 
 install-npm:
 	$(NPM) install
-	 npm install -g postcss-cli #needs to install globally 
+	 sudo npm install -g postcss-cli #needs to install globally 
 update-npm:
 	$(NPM) update
 build-fontawesome:
