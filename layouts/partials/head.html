@@ -39,7 +39,7 @@
 <!-- BS4+Fontawesome5 free+Custom Styles -->
 {{ $options := (dict "targetPath" "css/style.css" "outputStyle" "compressed") }}
 {{ $style := resources.Get "sass/main.scss" | toCSS $options }}
-{{ $sharebuttons := resources.Get "css/sharebuttons.css" | resources.PostCSS (dict "noMap" true) }}
+{{ $sharebuttons := resources.Get "css/sharebuttons.css" }} {{/*| resources.PostCSS (dict "noMap" true) */}}
 
 {{ $allstyle := slice $sharebuttons $style | resources.Concat "css/all.css" | minify | fingerprint }}
 
