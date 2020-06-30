@@ -19,15 +19,12 @@
 </div>
 
 {{ define "section-tree-nav" }}
-{{ $is_home := .CurrentSection.IsHome}}
 {{ range .CurrentSection.Sections }}
 <li><h5><a href="{{.Permalink}}">{{ .LinkTitle }}</a></h5></li>
-{{ if not (and (eq $is_home true) (eq .Params.hideChildrenInHomepage true))}}
 {{ template "current-section_pages" . }} 
 <ul>
     {{ template "section-tree-nav" . }}
 </ul>
-{{ end }}
 {{ end }}
 {{ end }}
 

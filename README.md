@@ -57,7 +57,6 @@ Features:
   - directory/category lists
 	- If `/static/img/cover.jpg` exists, it is added as the background
       of the homepage header section
-	- hide listing from homepage with `hideChildrenInHomepage: true` frontmatter param
 - SEO
   - Hugo internal templates
 	- Open Graph
