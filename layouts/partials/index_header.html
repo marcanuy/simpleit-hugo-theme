@@ -5,7 +5,9 @@
 	    bg-light 
 	    {{ if (fileExists "static/img/cover.jpg") }}text-white{{ end }}
 	    text-center'
-     {{- if (fileExists "static/img/cover.jpg") -}}
+     
+     {{ if (fileExists "static/img/cover.jpg") }}
+     
      style='background-image: url(/img/cover.jpg);     
 	    background-repeat:no-repeat;
 	    background-position: bottom;
