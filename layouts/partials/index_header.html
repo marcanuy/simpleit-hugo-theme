@@ -7,8 +7,8 @@
 	    text-center'
      
      {{ if (fileExists "static/img/cover.jpg") }}
-     
-     style='background-image: url(/img/cover.jpg);     
+
+     style='background-image: url({{"/img/cover.jpg" | relURL}});
 	    background-repeat:no-repeat;
 	    background-position: bottom;
 	    background-size:cover;'
