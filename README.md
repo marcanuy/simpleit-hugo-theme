@@ -60,14 +60,14 @@ Features:
 - SEO
   - Hugo internal templates
 	- Open Graph
-		- `{{- template "_internal/opengraph.html" . -}}`
+		- `{{- partial "opengraph.html" . -}}`
     - Schema metatags
-		- `{{- template "_internal/schema.html" . -}}`
+		- `{{- partial "schema.html" . -}}`
 		- When an article is updated, it automatically generates
           `dateModified` *itemprop* and shows the Last Updated info in
           the article. It obtains the data from the [git repo](https://gohugo.io/variables/git/#lastmod).
     - Twitter Cards
-	  - `{{- template "_internal/twitter_cards.html" . -}}`
+	  - `{{- partial "twitter_cards.html" . -}}`
   - produces
 	- minified HTML
 	- SASS compiled in one *CSS* file
