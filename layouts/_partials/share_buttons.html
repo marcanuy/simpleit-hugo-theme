@@ -2,7 +2,7 @@
     {{ if (eq .Site.Params.shareButtonsType "static")}}
     {{ partial "share_static.html" . }}
     {{else}}
-    {{ if .Site.IsServer }}
+    {{ if hugo.IsServer }}
     <div class="bg-danger">share buttons placeholder</div>
     {{ else }}
     <ul class="share-buttons list-inline mb-1 text-center">
